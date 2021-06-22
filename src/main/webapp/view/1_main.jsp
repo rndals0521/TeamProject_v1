@@ -154,7 +154,7 @@ a:visited {
 					</div>
 					<img src="../image/slide.jpg">
 				</a>
-			</li class="slideitem">
+			</li>
 
 			<!-- 좌,우 슬라이드 버튼 -->
 			<div class="slide-control">
