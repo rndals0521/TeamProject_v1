@@ -35,8 +35,8 @@
 
 	/* 좌,우 슬라이드 버튼 */
 	.slide-control > div {display:none;}
-	.section .left {left:30px;background:url('../img/left.png') center center / 100% no-repeat;}
-	.section .right {right:30px;background:url('../img/right.png') center center / 100% no-repeat;}
+	.section .left {left:30px;background:url('../image/left.png') center center / 100% no-repeat;}
+	.section .right {right:30px;background:url('../image/right.png') center center / 100% no-repeat;}
 	.section input[id="slide01"]:checked ~ .slidewrap .slide-control > div:nth-child(1) {display:block;}
 	.section input[id="slide02"]:checked ~ .slidewrap .slide-control > div:nth-child(2) {display:block;}
 	.section input[id="slide03"]:checked ~ .slidewrap .slide-control > div:nth-child(3) {display:block;}
@@ -53,10 +53,6 @@
 
 
 
-section.header {
-	position: relative;
-	padding: 80px 0px 20px
-}
 
 div {
 	display: flex;
@@ -70,30 +66,7 @@ body {
 	background-color: #fff;
 }
 
-div.header {
-	position: absolute;
-	width: 100%;
-	height: 125%;
-	background-color: black;
-	left: 0;
-	top: 0;
-	color: white;
-}
 
-div.container_head {
-	display: flex;
-	flex-direction: row;
-	max-width: 1200px;
-	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto;
-	flex-wrap: wrap;
-	justify-content: space-between;
-	align-items: center;
-	margin-top: 10px;
-}
 
 div.container {
 	flex-direction: row;
@@ -110,99 +83,8 @@ div.container {
 	box-sizing: border-box;
 }
 
-footer {
-	padding: 80px 0px;
-	position: relative;
-	bottom: 0;
-	color: white;
-}
 
-div.footer-overay {
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 300px;
-	background-color: gray;
-	display: flex;
-	flex-direction: row;
-}
 
-img.logo {
-	width: 200px;
-	height: 50px;
-}
-
-div.row {
-	display: flex;
-	flex-direction: row;
-}
-
-div.footer_1 {
-	width: 30%;
-}
-
-div.footer_2 {
-	width: 20%
-}
-/* 메뉴바 */
-nav.menu {
-	display: flex;
-	justify-content: center;
-	background: #696969;
-	margin-top: 15px;
-	height: 50px;
-	
-}
-
-ul, li {
-	list-style: none;
-	margin: auto;
-	padding: 0px;
-}
-
-ul.footer, li.footer {
-	margin: 0px;
-}
-
-ul.myMenu>li {
-	display: inline-block;
-	width: 200px;
-	padding: 5px 10px;
-	background-color: #696969;
-	text-align: center;
-	position: relative;
-}
-
-ul.myMenu>li>ul.sub {
-	display: none;
-	position: absolute;
-	top: 35px;
-	left: 0px;
-}
-
-ul.myMenu>li>ul.sub>li {
-	display: inline-block;
-	text-align: center;
-	width: 200px;
-	padding: 5px 10px;
-	background-color: #696969;
-	
-	
-}
-
-ul.myMenu>li:hover ul.sub {
-	display: block;
-	z-index: 1;
-}
-
-ul.myMenu>li:hover ul.sub>li:hover {
-	background-color: darkgray;
-}
-
-li.menu {
-	margin-right: 20px;
-}
-/* 메뉴바 끝*/
 div.banner {
 	width: 100%;
 	max-width: 1920px;
@@ -229,62 +111,13 @@ a:visited {
 	text-decoration : none;
 	color: inherit;
 }
+
 </style>
 </head>
 <body>
 	<div>
-		<section class="header">
-			<div class="header">
-				<div class="container_head">
-					<div class="">
-						<a href="/"> <img class="logo" alt="" src="logo.png">
-						</a>
-					</div>
-
-					<div class="row">
-						<input type="text" style="width: 600px" placeholder="검색하세요">
-						<input type="button" value="검색">
-					</div>
-					<div>
-						<input type="button" value="로그인/회원가입">
-					</div>
-				</div>
-				<nav class="menu">
-					<ul class="myMenu">
-						<li class="menu">영화
-							<ul class="sub">
-								<li><a href="">공포</a>  <a href="">액션</a>  <a href="">장르</a></li>
-								<li><a href="">공포</a>  <a href="">액션</a>  <a href="">장르</a></li>
-								<li><a href="">공포</a>  <a href="">액션</a>  <a href="">장르</a></li>
-							</ul>
-						</li>
-						<li class="menu">드라마
-							<ul class="sub">
-								<li><a href="">장르</a>  <a href="">장르</a>  <a href="">장르</a></li>
-								<li><a href="">장르</a>  <a href="">장르</a>  <a href="">장르</a></li>
-								<li><a href="">장르</a>  <a href="">장르</a>  <a href="">장르</a></li>
-							</ul>
-						</li>
-						<li class="menu">책
-							<ul class="sub">
-								<li><a href="">장르</a>  <a href="">장르</a>  <a href="">장르</a></li>
-								<li><a href="">장르</a>  <a href="">장르</a>  <a href="">장르</a></li>
-								<li><a href="">장르</a>  <a href="">장르</a>  <a href="">장르</a></li>
-							</ul>
-						</li>
-						<li class="menu">고객센터
-							<ul class="sub">
-								<li><a href="">고객센터 항목 1 </a></li>
-								<li><a href="">고객센터 항목 2 </a></li>
-								<li><a href="">고객센터 항목 3 </a></li>
-								<li><a href="">고객센터 항목 4 </a></li>
-							</ul>
-						</li>
-					</ul>
-				</nav>
-
-			</div>
-		</section>
+	
+	<%@ include file="0_Top_beom.jsp" %>
 		<div class="section">
 	<input type="radio" name="slide" id="slide01" checked>
 	<input type="radio" name="slide" id="slide02">
@@ -299,7 +132,7 @@ a:visited {
 						<h3>첫번째 슬라이드</h3>
 						<p>첫번째 슬라이드 입니다.</p>
 					</div>
-					<img src="../img/slide.jpg">
+					<img src="../image/slide.jpg">
 				</a>
 			</li>
 			<li class="slideitem">
@@ -309,7 +142,7 @@ a:visited {
 						<h3>두번째 슬라이드</h3>
 						<p>두번째 슬라이드 입니다.</p>
 					</div>
-					<img src="../img/slide.jpg">
+					<img src="../image/slide.jpg">
 				</a>
 			</li>
 			<li class="slideitem">
@@ -319,7 +152,7 @@ a:visited {
 						<h3>세번째 슬라이드</h3>
 						<p>세번째 슬라이드 입니다.</p>
 					</div>
-					<img src="../img/slide.jpg">
+					<img src="../image/slide.jpg">
 				</a>
 			</li class="slideitem">
 
@@ -350,7 +183,7 @@ a:visited {
 
 	
 </div>
-		
+	
 		<div class="contents">
 			<div class="container">
 			<h2>영화</h2>
@@ -361,28 +194,28 @@ a:visited {
 						<li><a href="">영화제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="movie.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/movie.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">영화제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="movie.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/movie.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">영화제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="movie.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/movie.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">영화제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="movie.jpg" alt=""></a>
+					<a href=""><img class="title" src="../image/movie.jpg" alt=""></a>
 				</div>
 			</div>
 			<div class="container">
@@ -394,28 +227,28 @@ a:visited {
 						<li><a href="">책제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="book.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">책제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="book.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">책제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="book.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">책제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="book.jpg" alt=""></a>
+					<a href=""><img class="title" src="../image/book.jpg" alt=""></a>
 				</div>
 			</div>
 		</div>
@@ -428,83 +261,32 @@ a:visited {
 						<li><a href="">드라마제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="drama.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/drama.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">드라마제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="drama.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/drama.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">드라마제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="drama.jpg" alt="" ></a>
+					<a href=""><img class="title" src="../image/drama.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
 						<li><a href="">드라마제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="drama.jpg" alt=""></a>
+					<a href=""><img class="title" src="../image/drama.jpg" alt=""></a>
 				</div>
 			</div>
-		<footer>
-			<div class="footer-overay">
-
-				<div class="footer_1">
-					<b>여긴 푸터에요</b> 번호, 주소
-				</div>
-				<div class="footer_1">
-					<ul class="footer">
-						<li class="footer"><br>
-						<b><a href="">푸터 컨텐츠 1</a></b></li>
-						<br>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						
-				</div>
-				<div class="footer_2">
-					<ul class="footer">
-						<li class="footer"><br>
-						<b><a href="">푸터 컨텐츠 2</a></b></li>
-						<br>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-				</div>
-				<div class="footer_2">
-					<ul class="footer">
-						<li class="footer"><br>
-						<b><a href="">푸터 컨텐츠 3</a></b></li>
-						<br>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-					</ul>
-				</div>
-				<div class="footer_2">
-					<ul class="footer">
-						<li class="footer"><br>
-						<b><a href="">푸터 컨텐츠 4</a></b></li>
-						<br>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-						<li><a href="">푸터소메뉴</a></li>
-				</div>
-
-			</div>
-		</footer>
-
-
+			
+	<%@ include file="0_Footer_beom.jsp" %>
 	</div>
 </body>
 
