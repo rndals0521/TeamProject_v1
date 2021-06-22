@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>영화 상세보기</title>
-<link rel="stylesheet" href="page_style.css?ver=1">
+<link rel="stylesheet" href="../css/page_style.css?ver=1">
 <script type="text/javascript">
 	state = 0;
 	

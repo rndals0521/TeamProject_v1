@@ -185,7 +185,7 @@
 	</div>
 	
 	
-	<!-- <div class="contents-list">
+	<div class="contents-list">
 		<div>
 			<fieldset>
 				<table>
@@ -244,7 +244,7 @@
 				</table>
 			</fieldset>
 		</div>
-	</div> -->
+	</div>
 	
 	<div class="center_padding32">
 		<div class="Plusbar">
