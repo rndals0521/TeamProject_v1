@@ -1,10 +1,10 @@
-<%@ page language="java" contentType="text/html; charset=EUC-KR"
-	pageEncoding="EUC-KR"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>ÇÑ¹ø ¸¸µé¾îº¸´Â ·Î±×ÀÎÆäÀÌÁö</title>
+<title>í•œë²ˆ ë§Œë“¤ì–´ë³´ëŠ” ë¡œê·¸ì¸í˜ì´ì§€</title>
 </head>
 <style type="text/css">
 section.header {
@@ -58,95 +58,69 @@ div.footer-overay {
 
 .bodybox {
 	margin: auto;
+	padding: auto;
+	padding-top : 100px;
+	padding-bottom: 100px;
+}
+#login-table{
+	width: 100%;
+	border: 4px solid lightgray;
+	background-color: white;
+	padding: 50px;
+	font-weight: bold; 
+	font-size: 20px;
 }
 </style>
 </head>
 <body>
 	<div>
-		<section class="header">
-			<div class="header">
-				<div class="container">
-					<div
-						style="float: left; margin-right: auto; margin-left: auto; border: 4px solid lightgray; width: 10%">
-						<a href=""> <img alt="À¯Åõºä ·Î°í" src="../image/À¯Åõºä ·Î°í.png"
-							width="100%" height="100%"></a>
-					</div>
-					<div
-						style="float: left; margin-right: auto; margin-left: auto; border: 4px solid red; width: 50%">
-						<form>
-							°Ë»ö : <input type="text">
-						</form>
-					</div>
-					<div
-						style="float: right; margin-right: auto; margin-left: auto; border: 4px solid blue; width: 20%">
-						<a href="">Log In</a>
-					</div>
-
-				</div>
-
-				<div>
-					<div class="menu">¸Ş´º µé¾î°¥ °÷</div>
-				</div>
-			</div>
-
-		</section>
-
+	 	<%@ include file="0_Top_min.jsp" %>
+		
 		<div class="contents">
 			<div class="container">
-				ÄÁÅÙÃ÷ µé¾î°¥°÷
 				<div class="bodybox">
 
-					<p style="text-align: left; font-size: 30px; margin-bottom: 2px;">·Î±×ÀÎ</p>
+					<p style="text-align: left; font-size: 30px; margin-bottom: 2px;">ë¡œê·¸ì¸</p>
 
 
-					<table
-						style="width: 100%; border: 4px solid lightgray; background-color: white; padding: 50px; font-weight: bold; font-size: 20px;">
+					<table id="login-table">
 						<tr>
-							<td style="width: 40%;">ID</td>
+							<td style="width: 35%;">ID</td>
 							<td><input type="text" name="id" value=""></td>
-							<td rowspan="2" style="text-align: right; width: 20%;"><a
-								href=""> <img alt="ÀÔ·Â" src="../image/arrowkey.png"
-									width="100" height="100"></a></td>
+							<td rowspan="2" style="text-align: right; width: 30%;">
+								<a href=""> <img alt="ì…ë ¥" src="../image/arrowkey.png"	width="100" height="100"></a>
+							</td>
 						</tr>
 						<tr>
-							<td style="width: 40%;">PASSWORD</td>
+							<td style="width: 35%;">PASSWORD</td>
 							<td><input type="text" id="id" name="id" value=""></td>
 						</tr>
 					</table>
-					<table
-						style="width: 100%; padding: 1px; font-weight: bold; font-size: 20px;">
+					<table style="width: 100%; padding: 1px; font-weight: bold; font-size: 20px;">
 						<tr>
-							<td style="text-align: left;"><a href="">È¸¿ø°¡ÀÔ</a></td>
-							<td style="text-align: right;"><a href="">¾ÆÀÌµğ / ºñ¹Ğ¹øÈ£ Ã£±â</a></td>
+							<td style="text-align: left;"><a href="">íšŒì›ê°€ì…</a></td>
+							<td style="text-align: right;"><a href="">ì•„ì´ë”” / ë¹„ë°€ë²ˆí˜¸ ì°¾ê¸°</a></td>
 						</tr>
 					</table>
 					<div
 						style="width: 100%; padding: 1px; font-weight: bold; font-size: 20px;">
 						<div style="float: left; margin-right: auto; margin-left: auto;">
-							<a href=""><img alt="Ä«Ä«¿À·Î±×ÀÎ" src="../image/±¸±Û ·Î±×ÀÎ.png"
+							<a href=""><img alt="ì¹´ì¹´ì˜¤ë¡œê·¸ì¸" src="../image/google-login.png"
 								width="100%" height="100%"></a>
 						</div>
 						<div style="float: right; margin-right: auto; margin-left: auto;">
-							<a href=""> <img alt="±¸±Û·Î±×ÀÎ" src="../image/Ä«Ä«¿ÀÅå ·Î±×ÀÎ.png"
+							<a href=""> <img alt="êµ¬ê¸€ë¡œê·¸ì¸" src="../image/kakao-login.png"
 								width="100%" height="100%"></a>
 						</div>
 					</div>
 
-
 				</div>
-
 
 			</div>
 
 		</div>
 
-		<footer>
-			<div class="footer-overay">
-				<div class="container">
-					ÇªÅÍ<br> ¿©±ä ÇªÅÍ¿¡¿ä
-				</div>
-			</div>
-		</footer>
+ 			<%@ include file="0_Footer_min.jsp" %>
 
 
 	</div>
