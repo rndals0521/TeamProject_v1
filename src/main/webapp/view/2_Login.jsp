@@ -58,7 +58,17 @@ div.footer-overay {
 
 .bodybox {
 	margin: auto;
-	padding : 100px;
+	padding: auto;
+	padding-top : 100px;
+	padding-bottom: 100px;
+}
+#login-table{
+	width: 100%;
+	border: 4px solid lightgray;
+	background-color: white;
+	padding: 50px;
+	font-weight: bold; 
+	font-size: 20px;
 }
 </style>
 </head>
@@ -73,22 +83,20 @@ div.footer-overay {
 					<p style="text-align: left; font-size: 30px; margin-bottom: 2px;">로그인</p>
 
 
-					<table
-						style="width: 100%; border: 4px solid lightgray; background-color: white; padding: 50px; font-weight: bold; font-size: 20px;">
+					<table id="login-table">
 						<tr>
-							<td style="width: 40%;">ID</td>
+							<td style="width: 35%;">ID</td>
 							<td><input type="text" name="id" value=""></td>
-							<td rowspan="2" style="text-align: right; width: 20%;"><a
-								href=""> <img alt="입력" src="../image/arrowkey.png"
-									width="100" height="100"></a></td>
+							<td rowspan="2" style="text-align: right; width: 30%;">
+								<a href=""> <img alt="입력" src="../image/arrowkey.png"	width="100" height="100"></a>
+							</td>
 						</tr>
 						<tr>
-							<td style="width: 40%;">PASSWORD</td>
+							<td style="width: 35%;">PASSWORD</td>
 							<td><input type="text" id="id" name="id" value=""></td>
 						</tr>
 					</table>
-					<table
-						style="width: 100%; padding: 1px; font-weight: bold; font-size: 20px;">
+					<table style="width: 100%; padding: 1px; font-weight: bold; font-size: 20px;">
 						<tr>
 							<td style="text-align: left;"><a href="">회원가입</a></td>
 							<td style="text-align: right;"><a href="">아이디 / 비밀번호 찾기</a></td>
