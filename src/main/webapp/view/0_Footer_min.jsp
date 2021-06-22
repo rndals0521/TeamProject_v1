@@ -5,6 +5,35 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<style type="text/css">
+	*{
+		margin:0; padding:0;
+	}
+	a{
+		text-decoration:none;
+	}
+	a:visited,a:hover,a:link{
+		color:black;
+	}
+	footer{
+		background-color: black;
+		color:white;
+		width:100%;
+		overflow : auto;
+		
+	}
+	.div_footer{
+		background-color:black;
+		color:white;
+		width:33.3%;
+		float:left;
+	}
+	.p_footer{
+		text-align:center;
+		font-size:10px;
+		margin:0;
+	}
+</style>
 </head>
 <body>
 	<footer>

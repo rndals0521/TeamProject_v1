@@ -5,23 +5,42 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="../css/ContentsList.css?ver=1">
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <title>컨텐츠 리스트 화면입니다.</title>
 <style type="text/css">
-	*{
-		margin:0; padding:0;
+	/* 공통  */
+	*{ margin:0; padding:0; }
+	a{
+		text-decoration:none;
 	}
-	.center_padding32{
-		position: relative;
-		margin: auto;
+	a:visited,a:hover,a:link{
+		color:black;
+	}
+	
+	/* 상단 카테고리 바 */
+	.category_1{
+		display: flex;
+		margin-top:30px;
+		margin-left:130px;
 		
 	}
-	.contents-list{
-		margin:auto;
-		margin-top:50px;
-		width:80%;
-		height:100%;
-		/*padding:50px;*/
+	
+	.category_2{
+		display: flex;
+		justify-content: flex-end;
+		margin-right:130px;
+		
+		
+	}
+	.category_2_1{
+		margin-right:50px;
+	}
+	
+	/* 하단 더보기,페이지,검색 바  */
+	 .center_padding32{
+		position: relative;
+		margin: auto;
 	}
 	.Plusbar{
 		text-align:center;
@@ -49,12 +68,6 @@
 		border-collapse: collapse;
 		border: 1px solid black;
 	}
-	a{
-		text-decoration:none;
-	}
-	a:visited,a:hover,a:link{
-		color:black;
-	}
 	footer{
 		background-color: black;
 		color:white;
@@ -62,108 +75,34 @@
 		overflow : auto;
 		
 	}
-	.div_footer{
-		background-color:black;
-		color:white;
-		width:33.3%;
-		float:left;
-	}
-	.p_footer{
-		text-align:center;
-		font-size:10px;
-		margin:0;
-	}
-	.top{
-		display:flex;
-		height:50px;
-		background-color: lightgray;
-	}
-	.top_1{
-		float:left;
-		width:20%;
-		padding:5px;
-		font-size:25px;
-		padding-left:10px;
-	}
-	.top_2{
-		float:left;
-		width:60%;
-		text-align:center;
-		padding:10px;
-	}
-	.top_3{
-		float:left;
-		width:20%;
-		text-align:right;
-		padding:10px;
-	}
 	
-	.img_sector{
+	
+	/*
+	.contents-list{
+		margin:auto;
+		margin-top:50px;
+		width:80%;
+		height:100%;
+		/*padding:50px;*/
+	} */
+	
+/* 	.img_sector{
 		width:18%;
 		border:1px solid black;
 	}
 	
 	.info_sector{
 		width:82%;
-	}
-	.navbar{
-		display:flex;
-		justify-content:space-around;
-		text-align:center;
-		
-	}
-	.nav_menu{
-		height:30px;
-		width:100%;
-	}
-	.nav_menu:hover{
-		background-color:lightgray;
-	}
+	} */
 	
-	h3{
-		
-	}
-	.category_1{
-		display: flex;
-		margin-top:30px;
-		margin-left:30px;
-		
-	}
-	
-	.category_2{
-		display: flex;
-		justify-content: flex-end;
-		margin-right:130px;
-		
-		
-	}
-	.category_2_1{
-		margin-right:50px;
-	}
+	/* 컨텐츠 */
 	
 </style>
 
 </head>
 <body>
-	<header>
-		<div class="top">
-			<div class="top_1"><i class="fas fa-bars"></i></div>
-			<div class="top_2"><a href="#">YouToView</a></div>
-			<div class="top_3"><a href="login.html">로그인/회원가입</a></div>
-		</div>
-	</header>
-	<hr>
-	
-	<!--  Nav -->
-	<div class="nav">
-		<div class="navbar">
-			<div class="nav_menu"><a href="#" >영화</a></div>
-			<a href="#" class="nav_menu">책</a>
-			<a href="#" class="nav_menu">드라마</a>
-			<a href="#" class="nav_menu">고객센터</a>
-		</div>
-	</div>
-	
+	<jsp:include page="0_Top_min.jsp" />
+	<!-- 카테고리 bar -->
 	<div class="category">
 		<div class="category_1">
 			<h3>컨텐츠 리스트</h3>
@@ -184,8 +123,80 @@
 		</div>
 	</div>
 	
+	<!-- 컨텐츠 -->
+	<div class="container">
+		<ul class="content-list">
+			<li class="content-list-item">
+				<a href="#">
+					<div class="content-list-item-info">
+						<div class="content-list-item-img">
+							<img class="img"  src="../image/movie_1.jpg">
+						</div>
+						<div class="content-list-item-desc">
+							<span class="content-list-item-desc-title">캐시트럭</span>
+							<span class="content-list-item-desc-review">보는내내흥미진진하고 결과적으로 속이후련하네요주인공짱멋짐!</span>
+							<span class="content-list-item-desc-grade">★★★★★</span>
+						</div>
+					</div>
+				</a>
+			</li>
+			
+			<li class="content-list-item">
+				<a href="#">
+					<div class="content-list-item-info">
+						<div class="content-list-item-img">
+							<img class="img" src="../image/movie_2.jpg">
+						</div>
+						<div class="content-list-item-desc">
+							<span>캐시트럭</span>
+							<span>보는내내흥미진진하고 결과적으로 속이후련하네요주인공짱멋짐!</span>
+							<span>★★★★★</span>					
+						</div>
+					</div>
+				</a>
+			</li>
+			
+			<li class="content-list-item">
+				<a href="#">
+					<div class="content-list-item-info">
+						<div class="content-list-item-img">
+							<img class="img" src="../image/movie_3.jpg">
+						</div>
+						<div class="content-list-item-desc">
+						</div>
+					</div>
+				</a>
+			</li>
+			
+			<li class="content-list-item">
+				<a href="#">
+					<div class="content-list-item-info">
+						<div class="content-list-item-img">
+							<img class="img" src="../image/movie_4.jpg">
+						</div>
+						<div class="content-list-item-desc">
+						</div>
+					</div>
+				</a>
+			</li>
+			
+			<li class="content-list-item">
+				<a href="#">
+					<div class="content-list-item-info">
+						<div class="content-list-item-img">
+							<img class="img"  src="../image/book_1.jpg">
+						</div>
+						<div class="content-list-item-desc">
+							<p>
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</div>
 	
-	<div class="contents-list">
+	
+	<!-- <div class="contents-list">
 		<div>
 			<fieldset>
 				<table>
@@ -244,8 +255,9 @@
 				</table>
 			</fieldset>
 		</div>
-	</div>
+	</div> -->
 	
+	<!-- 더보기 및 버튼 -->
 	<div class="center_padding32">
 		<div class="Plusbar">
 			<input type="button" value="더보기">
@@ -264,36 +276,7 @@
 		</div>
 	</div>
 	
-	<footer>
-		<div class="div_footer">
-			<h3>Footer</h3>
-			<p>this is footer  review please</p>
-			<p>Powered by <a href="#" target="_blank">YOUTOVIEW</a></p>
-		</div>
-		
-		<div class="div_footer">
-			<h3>Blog posts</h3>
-			<ul>
-				<li>Lorem</li>
-				<li>Ipsum</li>
-				<li>Jeju</li>
-				<li>Hello</li>
-			</ul>
-		</div>
-		<div class="div_footer">
-			<h3>Review best</h3>
-			<ul>
-				<li>Lee</li>
-				<li>Kim</li>
-				<li>Bruce</li>
-				<li>JIN</li>
-			</ul>
-		</div>
-		
-		<p class="p_footer">서울 특별시 마포구 양화로 첨단빌딩 7층 1강의장<br>
-		 	02-1512-1512 / 012-311-1231<br>
-		 	저희 사이트를 방문해주셔서 감사합니다.
-		 </p>
-	</footer>
+	<jsp:include page="0_Footer_min.jsp"/>
+	
 </body>
 </html>

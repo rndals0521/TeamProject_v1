@@ -118,10 +118,10 @@ a:visited {
 	<div>
 	
 	<%@ include file="0_Top_beom.jsp" %>
-		<div class="section">
-	<input type="radio" name="slide" id="slide01" checked>
-	<input type="radio" name="slide" id="slide02">
-	<input type="radio" name="slide" id="slide03">
+	<div class="section">
+		<input type="radio" name="slide" id="slide01" checked>
+		<input type="radio" name="slide" id="slide02">
+		<input type="radio" name="slide" id="slide03">
 	<div class="slidewrap">
 		
 		<ul class="slidelist">

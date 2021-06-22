@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+
+.container{
+	
+	border: 1px solid black;
+	border-collapse: collapse;
+	width: 70%;
+	margin:auto;
+	margin-top:20px;
+}
+
+.content-list{
+	display:flex;
+	flex-direction: column;
+	list-style-type:none;
+}
+
+.content-list-item{
+	
+}
+
+.content-list-item-info{
+	display:flex;
+	flex-direction:row;
+	border:1px solid black;
+	margin:10px 10px;
+	background-color:lightgray;
+}
+
+.content-list-item-img{
+	margin:10px 10px;
+}
+
+.img{
+	width:200px;
+	height:200px;
+}
+
+.content-list-item-desc{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	flex-wrap:wrap;
+	border:1px solid black;
+	margin:10px 10px;
+	padding: 10px;
+	
+}
+
+.content-list-item-desc-title{
+	
+}
+.content-list-item-desc-review{
+	
+}
+.content-list-item-desc-grade{
+	text-align:right;
+}
