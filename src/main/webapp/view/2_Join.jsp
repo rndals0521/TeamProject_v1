@@ -102,7 +102,10 @@ div.footer-overay {
 							<td><input type="text" id="re_pwd" name="re_password" value=""></td>
 						</tr>
 						<tr>
-						<td colspan="3"	style="border-bottom: 2px solid black; padding : 10px;"></td>
+						<td colspan="3"	style="border-bottom: 2px solid black; padding-top: 30px;"></td>
+						<tr>
+						<tr>
+						<td colspan="3"	style=" padding-bottom : 30px;"></td>
 						<tr>				
 						<tr>
 							<td class="td-head" style="width: 35%;">이메일 주소</td>
@@ -114,8 +117,11 @@ div.footer-overay {
 							<td style="width: 30%;"><input type="button" name="nickname-overlapTest" value="중복확인"></td>
 						</tr>
 						<tr>
-							<td class="td-head" style="width: 35%;">성별</td>
-							<td><input type="checkbox" id="sex" name="sex" value="남"></td>
+							<td class="td-head" style="width: 15%;">성별</td>
+							<td>
+							<input type="radio"  name="gender" value="남">남성
+					  		 <input type="radio" name="gender" value="여"> 여성
+					  		 </td>
 						</tr>
 						<tr>
 							<td class="td-head" style="width: 35%;">주민등록번호</td>

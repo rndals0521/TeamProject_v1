@@ -59,6 +59,8 @@ div.footer-overay {
 .bodybox {
 	margin: auto;
 	padding: auto;
+	padding-left: 100px;
+	padding-right : 100px;
 	padding-top : 100px;
 	padding-bottom: 100px;
 }
@@ -66,7 +68,7 @@ div.footer-overay {
 	width: 100%;
 	border: 4px solid lightgray;
 	background-color: white;
-	padding: 50px;
+	padding: 30px;
 	font-weight: bold; 
 	font-size: 20px;
 }
@@ -74,7 +76,7 @@ div.footer-overay {
 </head>
 <body>
 	<div>
-	 	<%@ include file="0_Top_min.jsp" %>
+	 	<%@ include file="0_Top_beom.jsp" %>
 		
 		<div class="contents">
 			<div class="container">
@@ -86,8 +88,8 @@ div.footer-overay {
 					<table id="login-table">
 						<tr>
 							<td style="width: 35%;">ID</td>
-							<td><input type="text" name="id" value=""></td>
-							<td rowspan="2" style="text-align: right; width: 30%;">
+							<td style="width: 35%;"><input type="text" name="id" value=""></td>
+							<td rowspan="2" style="text-align: right; width: 30%; padding-right : 0px ">
 								<a href=""> <img alt="입력" src="../image/arrowkey.png"	width="100" height="100"></a>
 							</td>
 						</tr>
@@ -120,7 +122,7 @@ div.footer-overay {
 
 		</div>
 
- 			<%@ include file="0_Footer_min.jsp" %>
+ 			<%@ include file="0_Footer_beom.jsp" %>
 
 
 	</div>
