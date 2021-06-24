@@ -5,14 +5,19 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../css/ContentsList.css?ver=1">
+<link rel="stylesheet" href="../css/ContentsList.css">
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <title>컨텐츠 리스트 화면입니다.</title>
 <style type="text/css">
+	html{
+		line-height: 1.15;
+		-webkit-text-size-adjust: 100%;
+	}
 	/* 공통  */
 	*{ margin:0; padding:0; }
 	a{
 		text-decoration:none;
+		background-color:transparent;
 	}
 	a:visited,a:hover,a:link{
 		color:black;
@@ -102,8 +107,38 @@
 </head>
 <body>
 	<jsp:include page="0_Top_min.jsp" />
+	
+	<div>
+		<h3 class="product-list-title">영화 리스트 </h3>
+	</div>
+	
+	
 	<!-- 카테고리 bar -->
-	<div class="category">
+	<div class="content-list-select-wrapper">
+		<div class="content-list-select">
+			<div class="category-select">
+				<ul class="category-select-items">
+					<li class="category-select-item">
+						<div class="category-select-item-filter">
+							<a><i class="fas fa-th-large"></i>&nbsp;장르</a>
+						</div>
+					</li>
+					<li class="category-select-item">
+						<div class="category-select-item-filter">
+							<a><i class="fas fa-sliders-h"></i>&nbsp;정렬</a>
+						</div>
+					</li>
+					<li class="category-select-item">
+						<div class="category-select-item-filter">
+							<a><i class="fas fa-th-large"></i>&nbsp;기간</a>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- <div class="content-list-select-wrapper">
 		<div class="category_1">
 			<h3>컨텐츠 리스트</h3>
 		</div>
@@ -121,9 +156,11 @@
 				<p>기간</p>
 			</div>
 		</div>
-	</div>
+	</div> -->
+	
 	
 	<!-- 컨텐츠 -->
+	<div class="flex-center">
 	<div class="container">
 		<ul class="content-list">
 			<li class="content-list-item">
@@ -135,7 +172,14 @@
 						<div class="content-list-item-desc">
 							<span class="content-list-item-desc-title">캐시트럭</span>
 							<span class="content-list-item-desc-review">보는내내흥미진진하고 결과적으로 속이후련하네요주인공짱멋짐!</span>
-							<span class="content-list-item-desc-grade">★★★★★</span>
+							<div class="content-list-item-desc-grade">
+								<span class="content-list-item-desc-grade-box">
+									★
+									4.4
+								</span>
+								<span class="content-list-item-desc-textgrade">최고입니다.</span>
+								<span class="content-list-item-desc-reviewcount">80명 리뷰</span>
+							</div>	
 						</div>
 					</div>
 				</a>
@@ -194,7 +238,7 @@
 			</li>
 		</ul>
 	</div>
-	
+	</div>
 	
 	<!-- <div class="contents-list">
 		<div>
