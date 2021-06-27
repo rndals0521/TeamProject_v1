@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>한번 만들어보는 로그인페이지</title>
+<title>로그인</title>
 </head>
 <style type="text/css">
 section.header {
