@@ -1,185 +1,236 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>영화 상세보기</title>
-<link rel="stylesheet" href="../css/page_style.css?ver=1">
-<script type="text/javascript">
-	state = 0;
-	
-	function bookmark(){
-		if(state==0){
-			state = 1;
-			document.getElementById("bookmark").src="image/on.jpg";
-		}
-		else{
-			state = 0;
-			document.getElementById("bookmark").src="image/off.jpg";			
-		}
-	}
-	
-	
-</script>
-</head>
-<body>
-	<div id="container">
-		<ul class="myMenu">
-			<li class="menu1">영화
-				<ul class="sub">
-					<li>카테고리</li>
-					<li>카테고리</li>
-					<li>카테고리</li>
-				</ul>
-			</li>
-			<li class="menu2">드라마
-				<ul class="sub">
-					<li>카테고리</li>
-					<li>카테고리</li>
-					<li>카테고리</li>
-				</ul>
-			</li>
-			<li class="menu3">책
-				<ul class="sub">
-					<li>카테고리</li>
-					<li>카테고리</li>
-					<li>카테고리</li>
-				</ul>
-			</li>
-			<li class="menu4">고객센터
-				<ul class="sub">
-					<li>카테고리</li>
-					<li>카테고리</li>
-					<li>카테고리</li>
-				</ul>
-			</li>
-		</ul>
-	</div>
-	<div>
-		<!-- 상세보기 1번째 div(영화 기본 정보) -->
-		<div id="a1">
-			<!-- 영화 정보 -->
-			<div class="movie_info">
-				<!-- 조회수, 평점, 즐겨찾기수 표시 -->
-				<div class="movie_info_first">
-					<h3>조회수 : 8472 평점 : ★ 4.2 즐겨찾기 수 : 1421</h3>
-				</div>
-
-				<!-- 사진 -->
-				<div class="movie_info_photo">
-					<img alt="영화 표지" src="image/1.jpg"
-						style="float: left; width: 100px; margin-right: 10px;">
-				</div>
-
-				<!-- 영화 정보 설명 -->
-				<div class="movie_info_explanation"></div>
-				<strong>분노의 질주 : 더 얼티메이트</strong><br> 개봉 : 2021년 05월 19일<br>
-				등급 : 12세 관람가<br> 장르 : 액션 / 스릴러 / 모험 / 범죄<br> 러닝타임 : 142분<br>
-				국가 : 미국 <img id="bookmark" onclick="bookmark()" alt="즐겨찾기"
-					src="image/off.jpg"
-					style="float: right; width: 40px; margin-right: 10px;"> <br>
-				<br>
-			</div>
-		</div>
+	<head>
+		<meta charset="UTF-8">
+		<title>상세 페이지</title>
 		
+		<!-- 폰트 : 구글 웹 폰트(Noto Sans) -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 		
-		<!-- 상세보기 2번째 div(소개) -->
-		<div id="a2">
-			<!-- 영화 소개 -->
-			<div class="movie_introduction">
-				<strong>소개</strong> 
-			</div>
-			<!-- 영화 소개 내용-->
-			<div class="movie_introduction_content">
-				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-				~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-			</div>
-		</div>
+		<!-- CSS -->
+		<link rel="stylesheet" href="./css/bootstrap.min.css">
+		<link rel="stylesheet" href="./css/ContentsOneList.css">
+	</head>
 
-		<!-- 상세보기 3번째 div(출연/제작) -->
-		<div id="a3">
-			<!-- 영화 출연/제작 -->
-			<div class="movie_production">
-				<strong>출연/제작</strong>
-			</div>
-			<!-- 영화 출연/제작 내용 -->
-			<div class="movie_production_content">
-				출연/제작인물 <a href="#" target="_blank" style="text-decoration: none">출연/제작
-					더 보기</a><br>
-			</div>
-		</div>
-
-
-		<!-- 상세보기 4번째 div(리뷰) -->
-		<div id="a4">
-			<!-- 베스트 -->
-			<div class="movie_review_best_subject" style="float:left;">베스트</div>
-			<!-- 장문 리뷰 버튼 -->
-			<div class="movie_review_select" >
-				<button>장문 리뷰</button>
-				<button>한 줄 리뷰</button>
-			</div>
-			<!-- 베스트 리뷰 (위) -->
-			<div class="movie_review_up">
-				<div class="review_up_content">
-					<iframe src="long_review.jsp" scrolling="no"></iframe>
-				</div>
-				<div class="movie_review_up_more">
-					<a href="#" target="_blank" style="text-decoration: none">베스트 리뷰 더보기</a>
-				</div>
-			</div>
+	<body>
+		<div class="container py-4">
+			<div class="row">
 			
-			<br>
-			
-			<!-- 일반 리뷰 (아래) -->
-			<div class="movie_review_down">
-				<div class="movie_review_down_content">
-					<iframe src="short_review.jsp" scrolling="no"></iframe>
+				<!-- TOP info -->
+				<div class="summary-score col-12 px-1">
+					<dl class="item">
+						<dt>조회수</dt>
+						<dt>8472</dt>
+					</dl>
+					<dl class="item">
+						<dt>평점</dt>
+						<dt>⭐4.2</dt>
+					</dl>
+					<dl class="item">
+						<dt>즐겨찾기 수</dt>
+						<dt>1421</dt>
+					</dl>
 				</div>
-				<div class="movie_review_up_more">
-					<a href="#" target="_blank" style="text-decoration: none">한 줄 리뷰 더보기</a>
+				
+				<!-- Left Contents -->
+				<div class="col-md-7 mt-3">
+					<div class="movie-info mb-4">
+						<div class="img-box">
+							<img src="./image/movie_poster.jpg">
+						</div>
+						<div class="common-box">
+							<h3 class="title">분노의 질주 : 더 얼티메이트</h3>
+							<dl class="common-info">
+								<dt>개봉</dt>
+								<dt>2021.05.19</dt>
+							</dl>
+							<dl class="common-info">
+								<dt>등급</dt>
+								<dt>12세 관람가</dt>
+							</dl>
+							<dl class="common-info">
+								<dt>장르</dt>
+								<dt>액션/스릴러/모험/범죄</dt>
+							</dl>
+							<dl class="common-info">
+								<dt>러닝타임</dt>
+								<dt>142분</dt>
+							</dl>
+							<dl class="common-info">
+								<dt>국가</dt>
+								<dt>미국</dt>
+							</dl>
+						</div>
+					</div>
+
+					<div class="review-box mb-4">
+						<div class="tab-box">
+							<button class="btn btn-sm rounded-0 active">장문 리뷰</button>
+							<button class="btn btn-sm rounded-0">한 줄 리뷰</button>
+						</div>
+
+						<h3 class="title mt-4 mb-2">베스트</h3>
+						<div class="item">
+							<div class="text">
+								<img src="./image/reivew_person_icon.jpg">
+								<div>
+									<span>
+										기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터! 도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
+										사이퍼(샤를리즈 테론)와 연합해 전 세계를 위기로 빠트릴 위험천만한 계획을 세운다는 사실을 알게 되고,
+										이를 막기 위해 다시 한 번 패밀리들을...
+									</span>
+									<span class="more-btn">펼치기</span>
+								</div>
+							</div>
+							<div class="action my-1">
+								<dl class="btn btn-sm">
+									<dt>👍</dt>
+									<dt>754</dt>
+								</dl>
+								<dl class="btn btn-sm">
+									<dt>⭐</dt>
+									<dt>4.2</dt>
+								</dl>
+							</div>
+						</div>
+						<div class="item">
+							<div class="text">
+								<img src="./image/reivew_person_icon.jpg">
+								<div>
+									<span>
+										기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터! 도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
+										사이퍼(샤를리즈 테론)와 연합해 전 세계를 위기로 빠트릴 위험천만한 계획을 세운다는 사실을 알게 되고,
+										이를 막기 위해 다시 한 번 패밀리들을...
+									</span>
+									<span class="more-btn">펼치기</span>
+								</div>
+							</div>
+							<div class="action my-1">
+								<dl class="btn btn-sm">
+									<dt>👍</dt>
+									<dt>754</dt>
+								</dl>
+								<dl class="btn btn-sm">
+									<dt>⭐</dt>
+									<dt>4.2</dt>
+								</dl>
+							</div>
+						</div>
+						<div class="more-btn">
+							<span>베스트 리뷰 더보기</span>
+						</div>
+						
+						<h3 class="title mt-4 mb-2">리뷰</h3>
+						<div class="item">
+							<div class="text">
+								<img src="./image/reivew_person_icon.jpg">
+								<div>
+									<span>
+										기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터! 도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
+										사이퍼(샤를리즈 테론)와 연합해 전 세계를 위기로 빠트릴 위험천만한 계획을 세운다는 사실을 알게 되고,
+										이를 막기 위해 다시 한 번 패밀리들을...
+									</span>
+									<span class="more-btn">펼치기</span>
+								</div>
+							</div>
+							<div class="action my-1">
+								<dl class="btn btn-sm">
+									<dt>👍</dt>
+									<dt>2</dt>
+								</dl>
+								<dl class="btn btn-sm">
+									<dt>⭐</dt>
+									<dt>4.2</dt>
+								</dl>
+							</div>
+						</div>
+						<div class="item">
+							<div class="text">
+								<img src="./image/reivew_person_icon.jpg">
+								<div>
+									<span>
+										기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터! 도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
+										사이퍼(샤를리즈 테론)와 연합해 전 세계를 위기로 빠트릴 위험천만한 계획을 세운다는 사실을 알게 되고,
+										이를 막기 위해 다시 한 번 패밀리들을...
+									</span>
+									<span class="more-btn">펼치기</span>
+								</div>
+							</div>
+							<div class="action my-1">
+								<dl class="btn btn-sm">
+									<dt>👍</dt>
+									<dt>4</dt>
+								</dl>
+								<dl class="btn btn-sm">
+									<dt>⭐</dt>
+									<dt>4.2</dt>
+								</dl>
+							</div>
+						</div>
+						<div class="more-btn">
+							<span>리뷰 더보기</span>
+						</div>
+					</div>
+				</div>
+				
+				<!-- Right Contents -->
+				<div class="col-md-5 mt-3">
+					<div class="explain-box mb-4">
+						<h3 class="title">소개</h3>
+						<span>
+							기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터!
+							
+							도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
+							사이퍼(샤를리즈 테론)와 연합해 전 세계를 위기로 빠트릴 위험천만한 계획을 세운다는 사실을 알게 되고,
+							이를 막기 위해 다시 한 번 패밀리들을 소환한다.
+	
+							가장 가까운 자가 한순간, 가장 위험한 적이 된 상황
+							도미닉과 패밀리들은 이에 반격할 놀라운 컴백과 작전을 세우고
+							지상도, 상공도, 국경도 경계가 없는 불가능한 대결이 시작되는데…
+						</span>
+					</div>
+
+					<div class="people-box mb-4">
+						<div class="item">
+							<img src="./image/movie_person.jpg">
+							<span>저스틴 린</span>
+						</div>
+						<div class="item">
+							<img src="./image/movie_person.jpg">
+							<span>저스틴 린</span>
+						</div>
+						<div class="item">
+							<img src="./image/movie_person.jpg">
+							<span>저스틴 린</span>
+						</div>
+
+						<div class="more-btn">
+							<span>더보기</span>
+						</div>
+					</div>
+
+					<div class="similar-box mb-4">
+						<h3 class="title">비슷한 작품</h3>
+						<div class="item">
+							<img src="./image/movie_poster.jpg">
+							<span>분노의 질주</span>
+						</div>
+						<div class="item">
+							<img src="./image/movie_poster.jpg">
+							<span>분노의 질주</span>
+						</div>
+						<div class="item">
+							<img src="./image/movie_poster.jpg">
+							<span>분노의 질주</span>
+						</div>
+					</div>
 				</div>
 				
 			</div>
-			
-			<div class="movie_review_write">
-				<button onclick="#">리뷰 작성</button>
-			</div>
-			<br>
 		</div>
-		
-		
-		<!-- 상세보기 5번째 div(비슷한 작품) -->
-		<div id="a5">
-			<div class="movie_similar_subject">
-				<strong>비슷한 작품</strong>
-			</div>
-			<div class="movie_similar_image">
-				<div class="img1">
-					<button onclick="#">
-						<img alt="영화 표지" src="image/1.jpg" style=" width: 70px; margin-right: 10px;">
-						<p>분노의 질주...<br>평점 ★ 4.7</p>
-					</button>
-				</div>
-				<div class="img2">
-					<button onclick="#">
-						<img alt="영화 표지" src="image/1.jpg" style=" width: 70px; margin-right: 10px;">
-						<p>분노의 질주...<br>평점 ★ 4.7</p>
-					</button>
-				</div>
-			</div>			
-		</div>
-		
-	</div>
-	
-	<div id="footer"></div>
-</body>
+	</body>
 </html>
-
-
-
