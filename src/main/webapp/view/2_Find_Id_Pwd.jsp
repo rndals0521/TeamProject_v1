@@ -79,20 +79,20 @@ div.footer-overay {
 	}
 .submit_btn{
 
-	border: 2px solid #bcffeb;
- 	background-color: #deffeb;
+	border: 2px solid lightgray;
+ 	background-color: white;
 	width:160px;
 	height: 40px;
 	text-align: center;
 	font-weight: bold; 
 	font-size : 14pt;
-	color: #3068eb;
+	color: #696969;
 }
 </style>
 </head>
 <body>
 	<div>
-	 	<%@ include file="0_Top_min.jsp" %>
+	 	<%@ include file="0_Top_beom.jsp" %>
 		
 		<div class="contents">
 			<div class="container">
