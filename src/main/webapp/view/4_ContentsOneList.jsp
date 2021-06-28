@@ -12,8 +12,8 @@
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
 		
 		<!-- CSS -->
-		<link rel="stylesheet" href="./css/bootstrap.min.css">
-		<link rel="stylesheet" href="./css/ContentsOneList.css">
+		<link rel="stylesheet" href="../css/bootstrap.min.css">
+		<link rel="stylesheet" href="../css/ContentsOneList.css">
 	</head>
 
 	<body>
@@ -40,7 +40,7 @@
 				<div class="col-md-7 mt-3">
 					<div class="movie-info mb-4">
 						<div class="img-box">
-							<img src="./image/movie_poster.jpg">
+							<img src="../image/movie_poster.jpg">
 						</div>
 						<div class="common-box">
 							<h3 class="title">분노의 질주 : 더 얼티메이트</h3>
@@ -76,7 +76,7 @@
 						<h3 class="title mt-4 mb-2">베스트</h3>
 						<div class="item">
 							<div class="text">
-								<img src="./image/reivew_person_icon.jpg">
+								<img src="../image/reivew_person_icon.jpg">
 								<div>
 									<span>
 										기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터! 도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
@@ -99,7 +99,7 @@
 						</div>
 						<div class="item">
 							<div class="text">
-								<img src="./image/reivew_person_icon.jpg">
+								<img src="../image/reivew_person_icon.jpg">
 								<div>
 									<span>
 										기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터! 도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
@@ -127,7 +127,7 @@
 						<h3 class="title mt-4 mb-2">리뷰</h3>
 						<div class="item">
 							<div class="text">
-								<img src="./image/reivew_person_icon.jpg">
+								<img src="../image/reivew_person_icon.jpg">
 								<div>
 									<span>
 										기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터! 도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
@@ -150,7 +150,7 @@
 						</div>
 						<div class="item">
 							<div class="text">
-								<img src="./image/reivew_person_icon.jpg">
+								<img src="../image/reivew_person_icon.jpg">
 								<div>
 									<span>
 										기다림은 끝났다! 전 세계가 기다려온 단 하나의 액션블록버스터! 도미닉(빈 디젤)은 자신과 가장 가까웠던 형제 제이콥(존 시나)이
@@ -196,15 +196,15 @@
 
 					<div class="people-box mb-4">
 						<div class="item">
-							<img src="./image/movie_person.jpg">
+							<img src="../image/movie_person.jpg">
 							<span>저스틴 린</span>
 						</div>
 						<div class="item">
-							<img src="./image/movie_person.jpg">
+							<img src="../image/movie_person.jpg">
 							<span>저스틴 린</span>
 						</div>
 						<div class="item">
-							<img src="./image/movie_person.jpg">
+							<img src="../image/movie_person.jpg">
 							<span>저스틴 린</span>
 						</div>
 
@@ -216,15 +216,15 @@
 					<div class="similar-box mb-4">
 						<h3 class="title">비슷한 작품</h3>
 						<div class="item">
-							<img src="./image/movie_poster.jpg">
+							<img src="../image/movie_poster.jpg">
 							<span>분노의 질주</span>
 						</div>
 						<div class="item">
-							<img src="./image/movie_poster.jpg">
+							<img src="../image/movie_poster.jpg">
 							<span>분노의 질주</span>
 						</div>
 						<div class="item">
-							<img src="./image/movie_poster.jpg">
+							<img src="../image/movie_poster.jpg">
 							<span>분노의 질주</span>
 						</div>
 					</div>

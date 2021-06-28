@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../css/ContentsList.css">
+<link rel="stylesheet" href="../css/ContentsList.css?ver=1">
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <title>컨텐츠 리스트 화면입니다.</title>
 <style type="text/css">
@@ -112,7 +112,6 @@
 		<h3 class="product-list-title">영화 리스트 </h3>
 	</div>
 	
-	
 	<!-- 카테고리 bar -->
 	<div class="content-list-select-wrapper">
 		<div class="content-list-select">
@@ -133,6 +132,7 @@
 							<a><i class="fas fa-th-large"></i>&nbsp;기간</a>
 						</div>
 					</li>
+					
 				</ul>
 			</div>
 		</div>

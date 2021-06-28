@@ -25,10 +25,10 @@ div.header {
 	position: absolute;
 	width: 100%;
 	height: 125%;
-	background-color: black;
+	background-color: white;
 	left: 0;
 	top: 0;
-	color: white;
+	color: black;
 
 }
 div.container_head {
