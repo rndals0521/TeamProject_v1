@@ -1,0 +1,208 @@
+body {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* 상세 페이지 */
+.summary-score {
+	padding: 0;
+}
+.summary-score .item {
+	display: inline-flex;
+	margin-right: 12px;
+	margin-bottom: 0;
+}
+.summary-score .item :nth-child(1) {
+	font-weight: normal;
+	color: #98989C;
+	margin-right: 4px;
+}
+.summary-score .item :nth-child(2) {
+	font-weight: 600;
+}
+
+/* 리뷰 */
+.review-box {
+
+}
+.review-box .title {
+	font-size: 18px;
+}
+.review-box .tab-box {
+	display: flex;
+	justify-content: space-between;
+}
+.review-box .tab-box .btn {
+	width: 100%;
+	border: 1px solid #222222;
+}
+.review-box .tab-box .btn:first-child {
+	border-right: 0;
+}
+.review-box .tab-box .btn.active {
+	background-color: #222222;
+	color: #ffffff;
+}
+.review-box .item {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 16px;
+}
+.review-box .item .text {
+	display: flex;
+}
+.review-box .item .text img {
+	width: 70px;
+	height: 70px;
+	margin-right: 16px;
+	border-radius: 8px;
+}
+.review-box .item .text span {
+	font-size: 14px;
+	color: #222222;
+}
+.review-box .item .text .more-btn {
+	font-size: 14px;
+	color: #98989C;
+	cursor: pointer;
+}
+.review-box .item .action .btn {
+	display: inline-flex;
+	margin-right: 12px;
+	margin-bottom: 0;
+}
+.review-box .item .action .btn:nth-child(2) {
+	cursor: auto;
+}
+.review-box .item .action .btn :nth-child(1) {
+	font-weight: normal;
+	color: #98989C;
+	margin-right: 4px;
+}
+.review-box .item .action .btn :nth-child(2) {
+	font-weight: 600;
+}
+.review-box .more-btn {
+	width: 100%;
+	margin-top: 4px;
+	padding-right: 12px;
+	text-align: right;
+	cursor: pointer;
+
+	font-size: 14px;
+	color: #98989C;
+}
+
+
+/* 영화 정보 */
+.movie-info {
+	display: flex;
+	flex-direction: row;
+}
+.movie-info .img-box {
+	width: 40%;
+	min-width: 210px;
+	max-width: 300px;
+}
+.movie-info img {
+	width: 100%;
+	border-radius: 8px;
+	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.movie-info .common-box {
+	padding-left: 16px;
+	padding-top: 4px;
+}
+.movie-info .common-box .title {
+	font-size: 20px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.movie-info .common-info {
+	display: flex;
+	margin-left: 12px;
+	margin-bottom: 8px;
+	font-size: 14px;
+}
+.movie-info .common-info :nth-child(1) {
+	width: 80px;
+	font-weight: normal;
+	color: #98989C;
+}
+.movie-info .common-info :nth-child(2) {
+	font-weight: 500;
+}
+
+/* 영화 소개 */
+.explain-box {
+	padding: 12px;
+	border-radius: 8px;
+	background-color: #fafafa;
+}
+.explain-box .title {
+	font-size: 18px;
+}
+.explain-box span {
+	font-size: 14px;
+}
+
+/* 출연/제작 */
+.people-box {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.people-box .item {
+	display: flex;
+	flex-direction: column;
+	width: 24%;
+	padding: 4px;
+	margin-right: 1%;
+	text-align: center;
+}
+.people-box .item img {
+	width: 100%;
+	border-radius: 4px;
+}
+.people-box .item span {
+	font-size: 14px;
+	margin-top: 4px;
+	color: #222222;
+}
+.people-box .more-btn {
+	width: 100%;
+	margin-top: 12px;
+	text-align: right;
+	cursor: pointer;
+
+	font-size: 14px;
+	color: #98989C;
+}
+
+/* 비슷한 작품 */
+.similar-box {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.similar-box .title {
+	width: 100%;
+	font-size: 18px;
+}
+.similar-box .item {
+	display: flex;
+	flex-direction: column;
+	width: 30%;
+	padding: 8px;
+	margin-right: 3%;
+	text-align: center;
+	cursor: pointer;
+}
+.similar-box .item img {
+	width: 100%;
+	border-radius: 4px;
+}
+.similar-box .item span {
+	font-size: 14px;
+	margin-top: 4px;
+	color: #222222;
+}
