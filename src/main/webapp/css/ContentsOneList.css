@@ -2,7 +2,8 @@ body {
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
-/* 상세 페이지 */
+/* ---- 메인 페이지 정보 ---- */
+/* 수치 정보 */
 .summary-score {
 	padding: 0;
 }
@@ -20,7 +21,7 @@ body {
 	font-weight: 600;
 }
 
-/* 리뷰 */
+/* 리뷰 정보 */
 .review-box {
 
 }
@@ -94,45 +95,44 @@ body {
 
 
 /* 영화 정보 */
-.movie-info {
+.media-info {
 	display: flex;
 	flex-direction: row;
 }
-.movie-info .img-box {
+.media-info .img-box {
 	width: 40%;
 	min-width: 210px;
 	max-width: 300px;
 }
-.movie-info img {
+.media-info img {
 	width: 100%;
 	border-radius: 8px;
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
-.movie-info .common-box {
+.media-info .common-box {
 	padding-left: 16px;
 	padding-top: 4px;
 }
-.movie-info .common-box .title {
+.media-info .common-box .title {
 	font-size: 20px;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
-.movie-info .common-info {
+.media-info .common-info {
 	display: flex;
 	margin-left: 12px;
 	margin-bottom: 8px;
 	font-size: 14px;
 }
-.movie-info .common-info :nth-child(1) {
+.media-info .common-info :nth-child(1) {
 	width: 80px;
 	font-weight: normal;
 	color: #98989C;
 }
-.movie-info .common-info :nth-child(2) {
+.media-info .common-info :nth-child(2) {
 	font-weight: 500;
 }
-
-/* 영화 소개 */
+/* 영화 설명 */
 .explain-box {
 	padding: 12px;
 	border-radius: 8px;
@@ -171,7 +171,7 @@ body {
 .people-box .more-btn {
 	width: 100%;
 	margin-top: 12px;
-	text-align: right;
+	text-align: center;
 	cursor: pointer;
 
 	font-size: 14px;
@@ -206,3 +206,4 @@ body {
 	margin-top: 4px;
 	color: #222222;
 }
+
