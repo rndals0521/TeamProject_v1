@@ -5,7 +5,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="../css/ContentsList.css?ver=1">
+<link rel="stylesheet" href="../css/ContentsList.css">
 <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 <title>컨텐츠 리스트 화면입니다.</title>
 <style type="text/css">
@@ -73,13 +73,7 @@
 		border-collapse: collapse;
 		border: 1px solid black;
 	}
-	footer{
-		background-color: black;
-		color:white;
-		width:100%;
-		overflow : auto;
-		
-	}
+	
 	
 	
 	/*
@@ -106,12 +100,46 @@
 
 </head>
 <body>
-	<jsp:include page="0_Top_min.jsp" />
+	<jsp:include page="0_Top_beom.jsp" />
 	
-	<div>
-		<h3 class="product-list-title">영화 리스트 </h3>
+	<div class="best-review">
+	<h3 class="bestreview-h3">사용자들의 리얼 리뷰</h3>
+		<div class="best-review-box">
+			<div class="best-review-box-item">
+				<div class="best-review-box-item-user">
+					<div class="profile-img"><img src="../image/2.jpg"></div>
+					<div class="profile-desc"><h4>뚜비국방전자</h4><a>IT전문 블로거 | 태크전문가</a></div>
+				</div>
+				<div class="review-box-img"><img src="../image/1.jpg"></div>
+				<p style="font-size:15px;">이 영화는 감동적이며 아주 신파적이라 모든이들이 보기에도 딱적당합니다.재미는 덤 감동은 플러스</p>
+				<span>대부 쿠엔틴 타란티노</span>
+			</div>
+			
+			<div class="best-review-box-item">
+				<div class="best-review-box-item-user">
+					<div class="profile-img"><img src="../image/2.jpg"></div>
+					<div class="profile-desc"><h4>뚜비국방전자</h4><a>IT전문 블로거 | 태크전문가</a></div>
+				</div>
+				<div class="review-box-img"><img src="../image/1.jpg"></div>
+				<p style="font-size:15px;">이 영화는 감동적이며 아주 신파적이라 모든이들이 보기에도 딱적당합니다.재미는 덤 감동은 플러스</p>
+				<span>대부 쿠엔틴 타란티노</span>
+			</div>
+			
+			<div class="best-review-box-item">
+				<div class="best-review-box-item-user">
+					<div class="profile-img"><img src="../image/2.jpg"></div>
+					<div class="profile-desc"><h4>뚜비국방전자</h4><a>IT전문 블로거 | 태크전문가</a></div>
+				</div>
+				<div class="review-box-img"><img src="../image/1.jpg"></div>
+				<p style="font-size:15px;">이 영화는 감동적이며 아주 신파적이라 모든이들이 보기에도 딱적당합니다.재미는 덤 감동은 플러스</p>
+				<span>대부 쿠엔틴 타란티노</span>
+			</div>
+			
+		</div>
 	</div>
-	
+	<div class="product-list-title">
+		<h3>영화 리스트 </h3>
+	</div>
 	<!-- 카테고리 bar -->
 	<div class="content-list-select-wrapper">
 		<div class="content-list-select">
@@ -170,11 +198,13 @@
 							<img class="img"  src="../image/movie_1.jpg">
 						</div>
 						<div class="content-list-item-desc">
-							<span class="content-list-item-desc-title">캐시트럭</span>
-							<span class="content-list-item-desc-review">보는내내흥미진진하고 결과적으로 속이후련하네요주인공짱멋짐!</span>
+							<span class="content-list-item-desc-title"><h3>캐시트럭</h3><h5>가이 리치</h5></h3></span>
+							<span class="content-list-item-desc-review">
+								<span><i class="fas fa-thumbs-up"></i>BEST</span> 보는내내흥미진진하고 결과적으로 속이후련하네요주인공짱멋짐!
+							</span>
 							<div class="content-list-item-desc-grade">
 								<span class="content-list-item-desc-grade-box">
-									★
+									<i class="fas fa-star"></i>
 									4.4
 								</span>
 								<span class="content-list-item-desc-textgrade">최고입니다.</span>
@@ -240,66 +270,7 @@
 	</div>
 	</div>
 	
-	<!-- <div class="contents-list">
-		<div>
-			<fieldset>
-				<table>
-					<tr>
-						<td class="img_sector">
-							<a href="#"><img class="img" src="../image/movie_1.jpg" style="width:100%; height:150px;"></a>
-						</td>
-						<td class="info_sector">
-							<p>캐시트럭<br>보는내내흥미진진하고 결과적으로 속이후련하네요주인공짱멋짐!<br>★★★★★</p>
-						</td>
-					</tr>
-					
-					<tr>
-						<td class="img_sector">
-							<a href="#"><img class="img" src="../image/movie_2.jpg" style="width:100%; height:150px;"></a>
-						</td>
-						<td class="info_sector">
-							<pre>컨저링3<br>간만에 제대로 된 영화를 본 느낌!!<br>★★★★★</pre>
-						</td>
-					</tr>
-
-					<tr>
-						<td class="img_sector">
-							<a href="#"><img class="img" src="../image/movie_3.jpg" style="width:100%; height:150px;"></a>
-						</td>
-						<td class="info_sector">
-							<pre>분노의질주<br>딱히 기대는 안 하고 봤는데 상상 그 이상으로 너무 재밌었음.. 다시 보러갈 의향도 있ㅇ다는<br>★★★★★</pre>
-						</td>
-					</tr>
-					<tr>
-						<td class="img_sector">
-							<a href="#"><img class="img" src="../image/movie_4.jpg" style="width:100%; height:150px;"></a>
-						</td>
-						<td class="info_sector">
-							<pre>아들의 이름으로<br>공포영화 무서워하는 편인데, 중간까지는 좀 무서웠고, 뒤쪽은 졸렸어요..감독이 하고 싶은 얘기가 넘 많은듯.<br>★★★★★</pre>
-						</td>
-					</tr>
-					
-					<tr>
-						<td class="img_sector">
-							<a href="#"><img class="img" src="../image/book_1.jpg" style="width:100%; height:150px;"></a>
-						</td>
-						<td class="info_sector">
-							<pre>독판남이 알려주는 돈 되는 특허 A to Z<br>프로그램의 순차적인 흐름을 제어해야 할 때 사용하는 실행문을 제어문이라고 합니다.<br>★★★★★</pre>
-						</td>
-					</tr>
-
-					<tr>
-						<td class="img_sector">
-							<a href="#"><img class="img" src="../image/city.jpg" style="width:100%; height:150px;"></a>
-						</td>
-						<td class="info_sector">
-							<pre>도시<br>프로그램의 순차적인 흐름을 제어해야 할 때 사용하는 실행문을 제어문이라고 합니다.<br>★★★★★</pre>
-						</td>
-					</tr>
-				</table>
-			</fieldset>
-		</div>
-	</div> -->
+	
 	
 	<!-- 더보기 및 버튼 -->
 	<div class="center_padding32">
@@ -320,7 +291,7 @@
 		</div>
 	</div>
 	
-	<jsp:include page="0_Footer_min.jsp"/>
+	<jsp:include page="0_Footer_beom.jsp"/>
 	
 </body>
 </html>

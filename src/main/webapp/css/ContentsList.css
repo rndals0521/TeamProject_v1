@@ -9,9 +9,59 @@ li{
 	text-align: -webkit-match-parent;
 }
 
+.best-review{
+	margin-top:30px;
+	border-bottom: 1px solid #edeef1;
+}
+.bestreview-h3{
+	margin-left:130px;
+	margin-bottom: 30px;
+	margin-top: 50px;
+	
+}
+.best-review-box{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	padding:10px;
+}
+.best-review-box-item{
+	border: 1px solid #edeef1;
+	box-sizing: border-box;
+	border-radius: 4px;
+	letter-spacing: -0.4px;
+	color:black;
+	margin-left:50px;
+	padding:20px;
+	cursor:pointer;
+	width:300px;
+}
+.best-review-box-item-user{
+	display:flex;
+	flex-direction:row;
+}
+.best-review-box-item>span{
+	color:gray;
+	font-size:13px;
+}
+.profile-desc>a{
+	color:lightgray;
+}
+
+.review-box-img{
+	float:left;
+	margin-right:10px;
+}
+.review-box-img>img{
+	width:60px;
+	height:80px;
+}
+
+/*  */
 .product-list-title{
 	display: block;
     font-size: 1.3em;
+    margin-top:150px;
     margin-bottom: 0;
     margin-block-start: 0.83em;
     margin-block-end: 0.83em;
@@ -40,8 +90,6 @@ li{
 	overflow-y: auto;
 	
 }
-
-
 
 .category-select-items{
 	display:inline-block;
@@ -81,13 +129,15 @@ li{
 	background-color:pink;
 }
 
+/*  */
 .flex-center{
 	display:flex;
 	justify-content:center;
 }
+
 .container{
 	width:100%;
-	max-width: 980px;
+	max-width: 1080px;
 	word-break: break-all;
 } 
 
@@ -104,9 +154,12 @@ li{
 	box-sizing:border-box;
 	border-radius: 8px;
 	margin-top: 12px;
+	width:100%;
+	max-width: 1000px;
 }
 
 .content-list-item-info{
+	position:relative;
 	display:flex;
 	flex-direction:row;
 	margin:10px 10px;
@@ -126,12 +179,20 @@ li{
 	flex-direction:column;
 	justify-content:space-between;
 	flex-wrap:wrap;
-	border:1px solid black;
+	border: 1px solid #edeef1;
+	border-radius: 8px;
 	margin:10px 10px;
 	padding: 10px;
+	width:100%;
 	
 }
-
+.content-list-item-desc:hover{
+	background-color:#FBF7F7;
+}
+/* .content-list-item-desc>a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+} */
 .content-list-item-desc-grade{
 	display:flex;
 	flex-direction: row;
@@ -140,6 +201,19 @@ li{
 	
 }
 .content-list-item-desc-grade-box{
+	display:inline-flex;
+	flex-direction: row;
+	text-align:center;
+	padding:3px;
+	margin-right:10px;
+	color:#ffffff;
+	background-color:skyblue;
+	border-radius: 5px;
+}
+.content-list-item-desc-title{
+	margin: 5px 5px;
+}
+.content-list-item-desc-review>span{
 	display:inline-flex;
 	flex-direction: row;
 	text-align:center;
