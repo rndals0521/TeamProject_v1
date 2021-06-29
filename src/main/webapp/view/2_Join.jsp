@@ -90,20 +90,20 @@ div.footer-overay {
 #submit_btn{
 	margin-top: 40px;
 	margin-left: 270px;
-	background-color: #deffeb;
-	border: 2px solid #bcffeb;
+	background-color: white;
+	border: 2px solid lightgray;
 	width:160px;
 	height: 40px;
 	text-align: center;
 	font-weight: bold; 
 	font-size : 14pt;
-	color: #3068eb;
+	color: #696969;
 }
 </style>
 </head>
 <body>
 	<div>
-	 	<%@ include file="0_Top_min.jsp" %>
+	 	<%@ include file="0_Top_beom.jsp" %>
 		
 		<div class="contents">
 			<div class="container">
@@ -162,7 +162,7 @@ div.footer-overay {
 						<tr>
 							<td class="td-head" >주민등록번호</td>
 							<td style="width: 30%;"><input type="text" id="RR_Num" name="RR_Num" value="" size="8" maxlength="6">&nbsp-&nbsp
-							<input style="width:20px;" type="text" id="RR_Num_2" name="RR_Num_2" value="" size="1" maxlength="1"> ******</td>
+							<input style="width:10px;" type="text" id="RR_Num_2" name="RR_Num_2" value="" size="1" maxlength="1"> ******</td>
 							<!-- 텍스트 입력칸을 더 줄일 방법 궁리중 -->
 						</tr>
 					</table>
@@ -178,7 +178,7 @@ div.footer-overay {
 
 		</div>
 
- 			<%@ include file="0_Footer_min.jsp" %>
+ 			<%@ include file="0_Footer_beom.jsp" %>
 
 
 	</div>

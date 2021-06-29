@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta charset="EUC-KR">
-<title>마이페이지</title>
+<title>마이페이지 > 즐겨찾기</title>
 </head>
 <style type="text/css">
 section.header {
@@ -124,54 +124,10 @@ th{
 						<div class="myPageList" onclick="" onmouseover="">즐겨찾기 리스트</div>
 						<div class="myPageList" onclick="" onmouseover="">나의 리뷰</div>
 					<br>
-					<p style="text-align: left; font-size: 25pt; margin-bottom: 2px;">나의정보</p>
+					<p style="text-align: left; font-size: 25pt; margin-bottom: 2px;">즐겨찾기</p>
 						
-						<table class="myInfo-table">
-							<tr>
-								<th >ID</th>
-								<td> 
-									<p></p>
-								</td>
-							</tr>
-							<tr >
-								<th >PASSWORD</th>
-								<td> 
-									<p></p>
-								</td>
-								<td style="font-size: 10pt; width= 20%;"><input type="button" value="비밀번호 변경" onclick="" ></td>
-							</tr>
-							<tr>
-								<th>이메일 주소</th>
-								<td> 
-								<p></p>
-								</td>
-							</tr>
-							<tr>
-								<th>닉네임</th>
-								<td><p></p></td>
-								<td style="width: 20%;"><input type="button" name="nickname-overlapTest" value="중복확인"></td>
-							</tr>
-							<tr>
-								<th>성별</th>
-								<td>
-								<p></p>
-						  		 </td>
-							</tr>
-							<tr>
-								<th>주민등록번호</th>
-								<td style="width: 50%;"><input type="text" id="RR_Num" name="RR_Num" value="" size="8" maxlength="6">&nbsp-&nbsp
-								<input type="text" id="RR_Num_2" name="RR_Num_2" value="" size="1" maxlength="1" style="width: 10px;"> ******</td>
-								<!-- 텍스트 입력칸을 더 줄일 방법 궁리중 -->
-							</tr>
-						</table>
-						<br>
-						<br>
-						<a href="" id="submit_btn">
-								<span>수정</span>
-						</a>
-						<a href="" id="submit_btn" style="float:left; left: 40px;">
-								<span>회원 탈퇴</span>
-						</a>
+						
+
 				</div>
 
 			</div>

@@ -1,16 +1,13 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title>상세 페이지</title>
-		
+		<title>Document</title>
 		<!-- 폰트 : 구글 웹 폰트(Noto Sans) -->
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com">
 		<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap" rel="stylesheet">
-		
 		<!-- CSS -->
 		<link rel="stylesheet" href="../css/bootstrap.min.css">
 		<link rel="stylesheet" href="../css/ContentsOneList.css">
@@ -19,7 +16,6 @@
 	<body>
 		<div class="container py-4">
 			<div class="row">
-			
 				<!-- TOP info -->
 				<div class="summary-score col-12 px-1">
 					<dl class="item">
@@ -35,10 +31,9 @@
 						<dt>1421</dt>
 					</dl>
 				</div>
-				
 				<!-- Left Contents -->
 				<div class="col-md-7 mt-3">
-					<div class="movie-info mb-4">
+					<div class="media-info mb-4">
 						<div class="img-box">
 							<img src="../image/movie_poster.jpg">
 						</div>
@@ -174,9 +169,10 @@
 						<div class="more-btn">
 							<span>리뷰 더보기</span>
 						</div>
+
 					</div>
+
 				</div>
-				
 				<!-- Right Contents -->
 				<div class="col-md-5 mt-3">
 					<div class="explain-box mb-4">
@@ -229,7 +225,6 @@
 						</div>
 					</div>
 				</div>
-				
 			</div>
 		</div>
 	</body>

@@ -85,12 +85,7 @@ div.container {
 
 
 
-div.banner {
-	width: 100%;
-	max-width: 1920px;
-	margin-top: 30px;
-	align-self: center;
-}
+
 
 div.item_box {
 	border: 1px solid #eee;
@@ -111,7 +106,9 @@ a:visited {
 	text-decoration : none;
 	color: inherit;
 }
-
+i{
+	cursor: pointer;
+}
 </style>
 </head>
 <body>
@@ -189,6 +186,8 @@ a:visited {
 			<h2>영화</h2>
 			</div>		
 			<div class="container">
+			<i class="fas fa-chevron-circle-left" style="font-size: 30px;"></i>
+			
 				<div class="item_box">
 					<ul>
 						<li><a href="">영화제목입니다</a></li>
@@ -217,45 +216,50 @@ a:visited {
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
 					<a href=""><img class="title" src="../image/movie.jpg" alt=""></a>
 				</div>
+				<i class="fas fa-chevron-circle-right" style="font-size: 30px;"></i>
+				
 			</div>
 			<div class="container">
-			<h2>책</h2>
+			<h2>도서</h2>
 			</div>		
 			<div class="container">
+			<i class="fas fa-chevron-circle-left" style="font-size: 30px;"></i>
 				<div class="item_box">
 					<ul>
-						<li><a href="">책제목입니다</a></li>
+						<li><a href="">도서제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
 					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">책제목입니다</a></li>
+						<li><a href="">도서제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
 					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">책제목입니다</a></li>
+						<li><a href="">도서제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
 					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">책제목입니다</a></li>
+						<li><a href="">도서제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
 					<a href=""><img class="title" src="../image/book.jpg" alt=""></a>
 				</div>
+				<i class="fas fa-chevron-circle-right" style="font-size: 30px;"></i>
 			</div>
 		</div>
 		<div class="container">
 			<h2>드라마</h2>
 			</div>		
 			<div class="container">
+			<i class="fas fa-chevron-circle-left" style="font-size: 30px;"></i>
 				<div class="item_box">
 					<ul>
 						<li><a href="">드라마제목입니다</a></li>
@@ -284,6 +288,7 @@ a:visited {
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
 					<a href=""><img class="title" src="../image/drama.jpg" alt=""></a>
 				</div>
+				<i class="fas fa-chevron-circle-right" style="font-size: 30px;"></i>
 			</div>
 			
 	<%@ include file="0_Footer_beom.jsp" %>
