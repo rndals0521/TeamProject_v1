@@ -69,7 +69,9 @@ ul, li {
 	margin: auto;
 	padding: 0px;
 }
-
+ul.myMenu{
+	display: flex;
+}
 ul.footer, li.footer {
 	margin: 0px;
 }
@@ -155,11 +157,11 @@ a.login:visited{
 						<input style="margin-left: 1px;" type="button" value="검색">
 					</div>
 					<div>
-						<a class="login">로그인 / 회원가입</a>
+						<a class="login" style="white-space: nowrap;">로그인 / 회원가입</a>
 					</div>
 				</div>
 				<nav class="menu">
-					<ul class="myMenu">
+					<ul class="myMenu"> 
 						<li class="menu">영화
 							<ul class="sub">
 								<li><a class="category" href="">가족</a>  <a class="category" href="">모험</a>  <a class="category" href="">서부</a>  <a class="category" href="">공포</a></li>
