@@ -24,7 +24,7 @@ div.footer-overay {
 	left: 0;
 	width: 100%;
 	height: 300px;
-	background-color: gray;
+	background-color: black;
 	display: flex;
 	flex-direction: row;
 }
