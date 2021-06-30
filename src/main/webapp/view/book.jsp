@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -7,14 +9,6 @@
 table {
 	border: 1px solid black;
 	width: 100%;
-}
-
-.check_ok {
-	background-color: green;
-}
-
-.check_no {
-	background-color: red;
 }
 
 table {
@@ -32,7 +26,7 @@ a {
 
 .list {
 	width: 100%;
-	border-top: 2px solid green;
+	border-top: 2px solid black;
 }
 
 .list tr {
@@ -63,36 +57,31 @@ a {
 					<td><a href="#">vclxkhvzehrzvjjcxvz</a></td>
 					<td>2021.06.02</td>
 					<td>jaewook3830</td>
-					<td class="check_ok">
-					<td>
+					<td>등록완료<td>
 				</tr>
 				<tr>
 					<td><a href="#">vclxkhvzehrzvjjcxvz</a></td>
 					<td>2021.06.02</td>
 					<td>jaewook3830</td>
-					<td class="check_no">
-					<td>
+					<td>대기중<td>
 				</tr>
 				<tr>
 					<td><a href="#">vclxkhvzehrzvjjcxvz</a></td>
 					<td>2021.06.02</td>
 					<td>jaewook3830</td>
-					<td class="check_no">
-					<td>
+					<td>대기중<td>
 				</tr>
 				<tr>
 					<td><a href="#">vclxkhvzehrzvjjcxvz</a></td>
 					<td>2021.06.02</td>
 					<td>jaewook3830</td>
-					<td class="check_ok">
-					<td>
+					<td>등록완료<td>
 				</tr>
 				<tr>
 					<td><a href="#">vclxkhvzehrzvjjcxvz</a></td>
 					<td>2021.06.02</td>
 					<td>jaewook3830</td>
-					<td class="check_ok">
-					<td>
+					<td>등록완료<td>
 				</tr>
 			</tbody>
 		</table>

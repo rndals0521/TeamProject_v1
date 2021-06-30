@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,8 +18,8 @@
    	height: 40px;
    	width: 400px;
    	margin: auto;
-   	border: 1px solid green;
-   	background: #ffffff;   
+   	border: 1px solid gray;
+   	background: #ffffff;
    }
    input {
    	font-size: 12px;
@@ -31,13 +33,13 @@
    	width: 50px;
    	height: 100%;
    	border: 0px;
-   	background: green;
+   	background: silver;
    	outline: none;
    	float: right;
    	color: #ffffff;
    }
    table {
-   	border-collapse: collapse; 
+   	border-collapse: collapse;
    }
    caption {
    	display: none;
@@ -51,7 +53,7 @@
    }
    .board_list {
    	width: 100%;
-   	border-top: 2px solid green;
+   	border-top: 2px solid black;
    }
    .board_list tr {
    	border-bottom: 1px solid #ccc;
@@ -69,7 +71,7 @@
    .board_list .tit:hover {
    	text-decoration: underline;
    }
-   
+
    .board_list_wrap .paging {
    	margin-top: 10px;
    	text-align: center;
@@ -87,13 +89,13 @@
    	border: 1px solid #eee;
    	background: #eee;
    }
-   .board_list_wrap .paging a.num { 
-   	border: 1px solid green;
+   .board_list_wrap .paging a.num {
+   	border: 1px solid black;
    	font-weight: 600;
-   	color: green;
+   	color: black;
    }
    .board_list_wrap .paging a.num_on {
-   	background: green;
+   	background: black;
    	color: #fff;
    }
 </style>
@@ -118,6 +120,34 @@
   			</tr>
   		</thead>
   		<tbody>
+        <tr>
+  				<td>9</td>
+  				<td class="tit"><a href="#">공지사항 제목</a></td>
+  				<td>관리자</td>
+  				<td>2019-11-20</td>
+  				<td>555</td>
+  			</tr>
+        <tr>
+  				<td>8</td>
+  				<td class="tit"><a href="#">공지사항 제목</a></td>
+  				<td>관리자</td>
+  				<td>2019-11-20</td>
+  				<td>555</td>
+  			</tr>
+        <tr>
+  				<td>7</td>
+  				<td class="tit"><a href="#">공지사항 제목</a></td>
+  				<td>관리자</td>
+  				<td>2019-11-20</td>
+  				<td>555</td>
+  			</tr>
+        <tr>
+  				<td>6</td>
+  				<td class="tit"><a href="#">공지사항 제목</a></td>
+  				<td>관리자</td>
+  				<td>2019-11-20</td>
+  				<td>555</td>
+  			</tr>
   			<tr>
   				<td>5</td>
   				<td class="tit"><a href="#">공지사항 제목</a></td>
@@ -160,7 +190,7 @@
   			<a href="#" class="num_on">1</a>
   			<a href="#" class="num">2</a>
   			<a href="#" class="num">3</a>
-  			<a href="#" class="bt">다음페이지</a>	
+  			<a href="#" class="bt">다음페이지</a>
   		</div>
   </div>
 </body>
