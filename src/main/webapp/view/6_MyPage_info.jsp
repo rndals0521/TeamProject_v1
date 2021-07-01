@@ -88,10 +88,15 @@ div.footer-overay {
 	font-weight: bold; 
 	font-size: 20px;
 }  
+td p{
+padding-left: 20px;
+margin: auto;
+}
 th{
 	padding-right: 30px;
-	width: 35%;
+	width: 25%;
 	text-align: right;
+	border-right: 2px solid lightgray;
 }
  
 #submit_btn{
@@ -130,38 +135,37 @@ th{
 							<tr>
 								<th >ID</th>
 								<td> 
-									<p></p>
+									<p>hong1212</p>
 								</td>
 							</tr>
 							<tr >
 								<th >PASSWORD</th>
 								<td  style="font-size: 10pt; width: 35%;"> 
-									<p></p>
+									<p>********</p>
 								</td>
 								<td style="font-size: 10pt; width: 30%;"><input type="button" value="비밀번호 변경" onclick="" ></td>
 							</tr>
 							<tr>
 								<th>이메일 주소</th>
 								<td> 
-								<p></p>
+								<p> 11131312 @ kakao.com </p>
 								</td>
 							</tr>
 							<tr>
 								<th>닉네임</th>
-								<td><p></p></td>
+								<td><p>닉네이머</p></td>
 								<td><input type="button" name="nickname-overlapTest" value="중복확인"></td>
 							</tr>
 							<tr>
 								<th>성별</th>
 								<td>
-								<p></p>
+								<p>남</p>
 						  		 </td>
 							</tr>
 							<tr>
 								<th>주민등록번호</th>
-								<td ><input type="text" id="RR_Num" name="RR_Num" value="" size="8" maxlength="6" style="width: 80px;">&nbsp-&nbsp
-								<input type="text" id="RR_Num_2" name="RR_Num_2" value="" size="1" maxlength="1" style="width: 10px;"> ******</td>
-								<!-- 텍스트 입력칸을 더 줄일 방법 궁리중 -->
+								<td ><p><input type="text" id="RR_Num" name="RR_Num" value="" size="8" maxlength="6" style="width: 80px;">&nbsp-&nbsp
+								<input type="text" id="RR_Num_2" name="RR_Num_2" value="" size="1" maxlength="1" style="width: 10px;"> ****** </p></td>
 							</tr>
 						</table>
 						<br>
