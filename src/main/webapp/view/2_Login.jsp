@@ -36,8 +36,8 @@ div.header {
 div.container {
 	max-width: 720px;
 	width: 100%;
-	padding-right: 15px;
-	padding-left: 15px;
+	padding-right: auto;
+	padding-left: auto;
 	margin-right: auto;
 	margin-left: auto;
 }
@@ -66,6 +66,7 @@ div.footer-overay {
 }
 #login-table{
 	width: 100%;
+	height: auto;
 	border: 4px solid lightgray;
 	background-color: white;
 	padding: 30px;
@@ -104,8 +105,7 @@ div.footer-overay {
 							<td style="text-align: right;"><a href="">아이디 / 비밀번호 찾기</a></td>
 						</tr>
 					</table>
-					<div
-						style="width: 100%; padding: 1px; font-weight: bold; font-size: 20px;">
+					<div style="width: 100%; padding: 1px; font-weight: bold; font-size: 20px;">
 						<div style="float: left; margin-right: auto; margin-left: auto;">
 							<a href=""><img alt="카카오로그인" src="../image/google-login.png"
 								width="100%" height="100%"></a>
