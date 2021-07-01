@@ -90,6 +90,7 @@ ul.myMenu>li>ul.sub {
 	position: absolute;
 	top: 35px;
 	left: 0px;
+	margin-top: 10px;
 }
 
 ul.myMenu>li>ul.sub>li {
@@ -162,7 +163,7 @@ a.login:visited{
 				</div>
 				<nav class="menu">
 					<ul class="myMenu"> 
-						<li class="menu">영화
+						<li class="menu" style="cursor: pointer;" onclick="">영화
 							<ul class="sub">
 								<li><a class="category" href="">가족</a>  <a class="category" href="">모험</a>  <a class="category" href="">서부</a>  <a class="category" href="">공포</a></li>
 								<li><a class="category" href="">범죄</a>  <a class="category" href="">컬트</a>  <a class="category" href="">무협</a>  <a class="category" href="">액션</a></li>
@@ -175,7 +176,7 @@ a.login:visited{
 								
 							</ul>
 						</li>
-						<li class="menu">드라마
+						<li class="menu" style="cursor: pointer;" onclick="">드라마
 							<ul class="sub">
 								<li><a class="category" href="">가족</a>  <a class="category" href="">모험</a>  <a class="category" href="">서부</a>  <a class="category" href="">공포</a></li>
 								<li><a class="category" href="">범죄</a>  <a class="category" href="">컬트</a>  <a class="category" href="">무협</a>  <a class="category" href="">액션</a></li>
@@ -187,7 +188,7 @@ a.login:visited{
 							
 							</ul>
 						</li>
-						<li class="menu">도서
+						<li class="menu" style="cursor: pointer;" onclick="">도서
 							<ul class="sub">
 								<li><a class="category" href="">가족</a>  <a class="category" href="">모험</a>  <a class="category" href="">서부</a>  <a class="category" href="">공포</a></li>
 								<li><a class="category" href="">범죄</a>  <a class="category" href="">컬트</a>  <a class="category" href="">무협</a>  <a class="category" href="">액션</a></li>
@@ -199,12 +200,11 @@ a.login:visited{
 								
 							</ul>
 						</li>
-						<li class="menu">고객센터
+						<li class="menu" style="cursor: pointer;" onclick="">고객센터
 							<ul class="sub">
-								<li><a class="category" href="">고객센터 항목 1 </a></li>
-								<li><a class="category" href="">고객센터 항목 2 </a></li>
-								<li><a class="category" href="">고객센터 항목 3 </a></li>
-								<li><a class="category" href="">고객센터 항목 4 </a></li>
+								<li><a class="category" href="">공지사항</a></li>
+								<li><a class="category" href="">FAQ</a></li>
+								<li><a class="category" href="">등록문의</a></li>
 							</ul>
 						</li>
 					</ul>
