@@ -5,6 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script src="https://kit.fontawesome.com/8cc7f9d44b.js" crossorigin="anonymous"></script>
 <style type="text/css">
 body {
 	margin: 0;	
@@ -157,8 +158,9 @@ a.login:visited{
 						<input type="text" style="width: 600px; padding: 10px;" placeholder="검색하세요" >
 						<input style="margin-left: 1px;" type="button" value="검색">
 					</div>
-					<div>
-						<a class="login" style="white-space: nowrap;">로그인 / 회원가입</a>
+					<div style="display: flex; flex-direction: row;">
+						<i class="fas fa-user-circle" style="white-space: nowrap; font-size: 45px; color: #696969; cursor: pointer;" onclick=""></i>
+						<i class="fas fa-cogs" style="white-space: nowrap; font-size: 40px; color: #696969; cursor: pointer; margin-left: 10px;"></i>
 					</div>
 				</div>
 				<nav class="menu">
