@@ -18,6 +18,7 @@ footer {
 	position: relative;
 	bottom: 0;
 	color: white;
+	line-height: 1.2;
 }
 
 div.footer-overay {
@@ -60,9 +61,8 @@ a.footer:visited {
 			<div class="footer-overay">
 
 				<div class="footer_first" >
-					<br>
 					<span style="margin-top: 25px;"><i class="far fa-building" style="font-size: 50px; color: white;"></i> </span><br> 
-					<span style="font-size: 23px; line-height: 1.2">서울 특별시 마포구 양화로 <br>첨단빌딩 7층 1강의장</span><br><br><br>
+					<span style="font-size: 23px; line-height: 1.2">서울 특별시 마포구 양화로 <br>첨단빌딩 7층 1강의장</span><br>
 					<span><i class="fas fa-phone-square-alt" style="font-size: 50px; color: white;"></i></span><br>
 					<span style="font-size: 23px;">02-0000-0000</span>
 					
