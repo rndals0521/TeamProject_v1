@@ -24,7 +24,6 @@ section.header {
 div.header {
 	position: absolute;
 	width: 100%;
-	height: 125%;
 	background-color: white;
 	left: 0;
 	top: 0;
@@ -61,7 +60,7 @@ nav.menu {
 	background: #696969;
 	margin-top: 15px;
 	height: 50px;
-	
+	z-index: 1;
 }
 
 ul, li {
@@ -111,12 +110,15 @@ ul.myMenu>li:hover ul.sub {
 ul.myMenu>li:hover ul.sub>li:hover {
 	background-color: darkgray;
 }
-
+ul.sub{
+	cursor: auto;
+}
 li.menu {
 	margin-right: 20px;
 	font-size: 23px;
 	font-weight: bold;
 	color: white;
+	line-height: 1.4;
 }
 a.category{
 	text-decoration: none;

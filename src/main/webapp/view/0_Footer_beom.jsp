@@ -10,6 +10,7 @@
 
 body {
 	margin: 0;	
+	
 }
 /* 푸터 */
 
@@ -41,6 +42,11 @@ ul.footer, li.footer {
 div.footer_first {
 	width: 30%;
 	margin-right: 20px;
+	display: block;
+	line-height: 1.75;
+	margin: 0;
+	margin-top: 22px;
+	
 }
 
 div.footer_second {
@@ -62,7 +68,7 @@ a.footer:visited {
 
 				<div class="footer_first" >
 					<span style="margin-top: 25px;"><i class="far fa-building" style="font-size: 50px; color: white;"></i> </span><br> 
-					<span style="font-size: 23px; line-height: 1.2">서울 특별시 마포구 양화로 <br>첨단빌딩 7층 1강의장</span><br>
+					<span style="font-size: 23px; line-height: 1.2">서울 특별시 마포구 양화로 <br>첨단빌딩 7층 1강의장</span><br><br>
 					<span><i class="fas fa-phone-square-alt" style="font-size: 50px; color: white;"></i></span><br>
 					<span style="font-size: 23px;">02-0000-0000</span>
 					
