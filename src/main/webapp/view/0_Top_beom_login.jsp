@@ -6,6 +6,17 @@
 <meta charset="UTF-8">
 <title>Insert title here</title>
 <script src="https://kit.fontawesome.com/8cc7f9d44b.js" crossorigin="anonymous"></script>
+<script type="text/javascript">
+
+	function myPageMenu() {
+		var myPageMenu = document.getElementById("myPageMenu");
+		if(myPageMenu.style.visibility == 'hidden'){
+			myPageMenu.style.visibility = 'visible';
+		}else{
+			myPageMenu.style.visibility = 'hidden';
+		}
+	}
+</script>
 <style type="text/css">
 body {
 	margin: 0;	
@@ -158,9 +169,17 @@ a.login:visited{
 						<input type="text" style="width: 600px; padding: 10px;" placeholder="검색하세요" >
 						<input style="margin-left: 1px;" type="button" value="검색">
 					</div>
-					<div>
-						<i class="fas fa-user-circle" style="white-space: nowrap; font-size: 45px; color: #696969; cursor: pointer;" onclick=""></i>
-						
+					<div style="display: flex; flex-direction: column;">
+							<i class="fas fa-user-circle" style="white-space: nowrap; font-size: 45px; color: #696969; cursor: pointer;" onclick="myPageMenu()"></i>
+								<ul class="sub" id="myPageMenu" style="visibility:hidden; border: 1px solid #696969; position: absolute; background-color: white; margin-top: 25px; margin-left: 25px; width: 70px; font-size: 12px; line-height: 1.9; border-collapse: collapse;" >
+								<li style="border-bottom: 1px solid #696969;"><a href="" style="text-decoration: none;">마이페이지</a></li>
+								<li style="border-bottom: 1px solid #696969;"><a href="" style="text-decoration: none;">즐겨찾기</a></li>
+								<li style="border-bottom: 1px solid #696969;"><a href="" style="text-decoration: none;">로그아웃</a></li>
+								<li><a href="" style="text-decoration: none;">고객센터</a></li>
+							
+								</ul>
+								
+								
 					</div>
 				</div>
 				<nav class="menu">

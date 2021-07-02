@@ -76,7 +76,7 @@ a.footer:visited {
 				<div class="footer_second">
 					<ul class="footer">
 						<li class="footer"><br>
-						<b><a class="footer" href="" style="font-size: 20px;">영화</a></b></li>
+						<b><a class="footer" href="3_ContentsList.jsp" style="font-size: 20px;">영화</a></b></li>
 						<!-- <br>
 						<li><a href="">푸터소메뉴</a></li>
 						<li><a href="">푸터소메뉴</a></li>
@@ -88,7 +88,7 @@ a.footer:visited {
 				<div class="footer_second">
 					<ul class="footer">
 						<li class="footer"><br>
-						<b><a class="footer" href="" style="font-size: 20px;">드라마</a></b></li>
+						<b><a class="footer" href="3_ContentsList.jsp" style="font-size: 20px;">드라마</a></b></li>
 						<!-- <br>
 						<li><a class="footer" href="">푸터소메뉴</a></li>
 						<li><a class="footer" href="">푸터소메뉴</a></li>
@@ -99,7 +99,7 @@ a.footer:visited {
 				<div class="footer_second">
 					<ul class="footer">
 						<li class="footer"><br>
-						<b><a class="footer" href="" style="font-size: 20px;">도서</a></b></li>
+						<b><a class="footer" href="3_ContentsList.jsp" style="font-size: 20px;">도서</a></b></li>
 						<!-- <br>
 						<li><a class="footer" href="">푸터소메뉴</a></li>
 						<li><a class="footer" href="">푸터소메뉴</a></li>
@@ -110,13 +110,13 @@ a.footer:visited {
 				<div class="footer_second">
 					<ul class="footer">
 						<li class="footer"><br>
-						<b><a class="footer" href="" style="font-size: 20px;">고객센터</a></b></li>
+						<b><a class="footer" href="center.jsp" style="font-size: 20px;">고객센터</a></b></li>
 						<br>
-						<li><a class="footer" href="">공지사항</a></li>
+						<li><a class="footer" href="center.jsp">공지사항</a></li>
 						<br>
-						<li><a class="footer" href="">FAQ</a></li>
+						<li><a class="footer" href="center.jsp">FAQ</a></li>
 						<br>
-						<li><a class="footer" href="">등록문의</a></li>
+						<li><a class="footer" href="center.jsp">등록문의</a></li>
 						
 						</ul>
 				</div>
