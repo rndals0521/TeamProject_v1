@@ -56,7 +56,7 @@ div.container_head {
 	align-items: center;
 	margin-top: 10px;
 }
-div.row {
+div.rows {
 	display: flex;
 	flex-direction: row;
 }
@@ -165,7 +165,7 @@ a.login:visited{
 						</a>
 					</div>
 
-					<div class="row">
+					<div class="rows">
 						<input type="text" style="width: 600px; padding: 10px;" placeholder="검색하세요" >
 						<input style="margin-left: 1px;" type="button" value="검색">
 					</div>
