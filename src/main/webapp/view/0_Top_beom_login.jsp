@@ -25,7 +25,6 @@ section.header {
 div.header {
 	position: absolute;
 	width: 100%;
-	height: 125%;
 	background-color: white;
 	left: 0;
 	top: 0;
@@ -118,6 +117,7 @@ li.menu {
 	font-size: 23px;
 	font-weight: bold;
 	color: white;
+	line-height: 1.4;
 }
 a.category{
 	text-decoration: none;
