@@ -157,7 +157,7 @@ a.login:visited{
 
 					<div class="rows">
 						<input type="text" style="width: 600px; padding: 10px;" placeholder="검색하세요" >
-						<input style="margin-left: 1px;" type="button" value="검색">
+						<input style="margin-left: 1px; padding : 10px;"  type="button" value="검색" onclick="location.href='3_ContentsList.jsp'">
 					</div>
 					<div>
 						<a class="login" style="white-space: nowrap;" href="2_Login.jsp">로그인 / 회원가입</a>
