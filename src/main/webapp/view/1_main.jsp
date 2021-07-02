@@ -190,31 +190,31 @@ i{
 			
 				<div class="item_box">
 					<ul>
-						<li><a href="">영화제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">영화제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/movie.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/movie.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">영화제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">영화제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/movie.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/movie.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">영화제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">영화제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/movie.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/movie.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">영화제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">영화제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/movie.jpg" alt=""></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/movie.jpg" alt=""></a>
 				</div>
 				<i class="fas fa-chevron-circle-right" style="font-size: 30px;"></i>
 				
@@ -226,31 +226,31 @@ i{
 			<i class="fas fa-chevron-circle-left" style="font-size: 30px;"></i>
 				<div class="item_box">
 					<ul>
-						<li><a href="">도서제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">도서제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">도서제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">도서제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">도서제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">도서제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/book.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/book.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">도서제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">도서제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/book.jpg" alt=""></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/book.jpg" alt=""></a>
 				</div>
 				<i class="fas fa-chevron-circle-right" style="font-size: 30px;"></i>
 			</div>
@@ -262,31 +262,31 @@ i{
 			<i class="fas fa-chevron-circle-left" style="font-size: 30px;"></i>
 				<div class="item_box">
 					<ul>
-						<li><a href="">드라마제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">드라마제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/drama.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/drama.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">드라마제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">드라마제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/drama.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/drama.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">드라마제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">드라마제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/drama.jpg" alt="" ></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/drama.jpg" alt="" ></a>
 				</div>
 				<div class="item_box">
 					<ul>
-						<li><a href="">드라마제목입니다</a></li>
+						<li><a href="4_ContentsOneList.jsp">드라마제목입니다</a></li>
 					</ul>
 					<div style="border: 0; width: 100%; height: 1px; padding: 0; clear: both; background-color: #eee; margin-bottom: 10px;"></div>
-					<a href=""><img class="title" src="../image/drama.jpg" alt=""></a>
+					<a href="4_ContentsOneList.jsp"><img class="title" src="../image/drama.jpg" alt=""></a>
 				</div>
 				<i class="fas fa-chevron-circle-right" style="font-size: 30px;"></i>
 			</div>

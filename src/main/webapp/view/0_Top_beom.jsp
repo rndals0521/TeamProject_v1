@@ -151,7 +151,7 @@ a.login:visited{
 			<div class="header">
 				<div class="container_head">
 					<div>
-						<a href="/" > <img class="logo" alt="" src="../image/logo.png">
+						<a href="1_main.jsp" > <img class="logo" alt="" src="../image/logo.png">
 						</a>
 					</div>
 
@@ -160,12 +160,12 @@ a.login:visited{
 						<input style="margin-left: 1px;" type="button" value="검색">
 					</div>
 					<div>
-						<a class="login" style="white-space: nowrap;">로그인 / 회원가입</a>
+						<a class="login" style="white-space: nowrap;" href="2_Login.jsp">로그인 / 회원가입</a>
 					</div>
 				</div>
 				<nav class="menu">
 					<ul class="myMenu"> 
-						<li class="menu" style="cursor: pointer;" onclick="">영화
+						<li class="menu" style="cursor: pointer;" onclick="location.href='3_ContentsList.jsp'">영화
 							<ul class="sub">
 								<li><a class="category" href="">가족</a>  <a class="category" href="">모험</a>  <a class="category" href="">서부</a>  <a class="category" href="">공포</a></li>
 								<li><a class="category" href="">범죄</a>  <a class="category" href="">컬트</a>  <a class="category" href="">무협</a>  <a class="category" href="">액션</a></li>
@@ -178,7 +178,7 @@ a.login:visited{
 								
 							</ul>
 						</li>
-						<li class="menu" style="cursor: pointer;" onclick="">드라마
+						<li class="menu" style="cursor: pointer;" onclick="location.href='3_ContentsList.jsp'">드라마
 							<ul class="sub">
 								<li><a class="category" href="">가족</a>  <a class="category" href="">모험</a>  <a class="category" href="">서부</a>  <a class="category" href="">공포</a></li>
 								<li><a class="category" href="">범죄</a>  <a class="category" href="">컬트</a>  <a class="category" href="">무협</a>  <a class="category" href="">액션</a></li>
@@ -190,7 +190,7 @@ a.login:visited{
 							
 							</ul>
 						</li>
-						<li class="menu" style="cursor: pointer;" onclick="">도서
+						<li class="menu" style="cursor: pointer;" onclick="location.href='3_ContentsList.jsp'">도서
 							<ul class="sub">
 								<li><a class="category" href="">가족</a>  <a class="category" href="">모험</a>  <a class="category" href="">서부</a>  <a class="category" href="">공포</a></li>
 								<li><a class="category" href="">범죄</a>  <a class="category" href="">컬트</a>  <a class="category" href="">무협</a>  <a class="category" href="">액션</a></li>
@@ -202,11 +202,11 @@ a.login:visited{
 								
 							</ul>
 						</li>
-						<li class="menu" style="cursor: pointer;" onclick="">고객센터
+						<li class="menu" style="cursor: pointer;" onclick="location.href='center.jsp'">고객센터
 							<ul class="sub">
-								<li><a class="category" href="">공지사항</a></li>
-								<li><a class="category" href="">FAQ</a></li>
-								<li><a class="category" href="">등록문의</a></li>
+								<li><a class="category" href="center.jsp">공지사항</a></li>
+								<li><a class="category" href="center.jsp">FAQ</a></li>
+								<li><a class="category" href="center.jsp">등록문의</a></li>
 							</ul>
 						</li>
 					</ul>

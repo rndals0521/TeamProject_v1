@@ -26,7 +26,7 @@ div.footer-overay {
 	position: absolute;
 	left: 0;
 	width: 100%;
-	height: 300px;
+	height: 260px;
 	background-color: black;
 	display: flex;
 	flex-direction: row;
@@ -50,7 +50,7 @@ div.footer_first {
 }
 
 div.footer_second {
-	width: 20%
+	width: 15%
 }
 a.footer{
 	text-decoration: none;
@@ -64,13 +64,17 @@ a.footer:visited {
 </head>
 <body>
 <footer>
-			<div class="footer-overay">
-
-				<div class="footer_first" >
+			<div class="footer-overay" style="flex-wrap: wrap; ">
+				<div class="footer_first" style="margin-left: 50px;">
+				
 					<span style="margin-top: 25px;"><i class="far fa-building" style="font-size: 50px; color: white;"></i> </span><br> 
 					<span style="font-size: 23px; line-height: 1.2">서울 특별시 마포구 양화로 <br>첨단빌딩 7층 1강의장</span><br><br>
 					<span><i class="fas fa-phone-square-alt" style="font-size: 50px; color: white;"></i></span><br>
-					<span style="font-size: 23px;">02-0000-0000</span>
+					<span style="font-size: 23px;">02-1512-1512</span>
+			<span style="position:absolute; float:right; margin-left: 32%; color: #72777b; font-weight: bold; font-size: 12px;"><i class="far fa-copyright"></i> 2021. YouTogetherView<br>
+		 	All rights reserved.<br>
+			 </span>
+			
 					
 				</div>
 				<div class="footer_second">
@@ -107,6 +111,7 @@ a.footer:visited {
 						<li><a class="footer" href="">푸터소메뉴</a></li> -->
 					</ul>
 				</div>
+				
 				<div class="footer_second">
 					<ul class="footer">
 						<li class="footer"><br>
@@ -120,8 +125,9 @@ a.footer:visited {
 						
 						</ul>
 				</div>
-
+			
 			</div>
+			 
 		</footer>
 </body>
 </html>
