@@ -2,6 +2,11 @@ body {
 	font-family: 'Noto Sans KR', sans-serif;
 }
 
+/* ---- 공통 스타일 ---- */
+.modal {
+	border-radius: 8px;
+}
+
 /* ---- 메인 페이지 정보 ---- */
 /* 수치 정보 */
 .summary-score {
@@ -23,7 +28,6 @@ body {
 
 /* 리뷰 정보 */
 .review-box {
-
 }
 .review-box .title {
 	font-size: 18px;
@@ -50,8 +54,9 @@ body {
 }
 .review-box .item .text {
 	display: flex;
+	position: relative;
 }
-.review-box .item .text img {
+.review-box .item .text .profile-img {
 	width: 70px;
 	height: 70px;
 	margin-right: 16px;
@@ -66,6 +71,23 @@ body {
 	color: #98989C;
 	cursor: pointer;
 }
+.review-box .item .text .upload-img {
+	width: 64px;
+	margin-left: 12px;
+	border-radius: 8px;
+}
+.review-box .item .text .upload-img-count {
+	position: absolute;
+	right: 0; bottom: 0;
+	padding: 4px;
+	border-top-left-radius: 8px;
+
+	font-size: 10px;
+	font-weight: bold;
+	background-color: rgba(255, 255, 255, .4);
+	color: #000000;
+}
+
 .review-box .item .action .btn {
 	display: inline-flex;
 	margin-right: 12px;
@@ -101,7 +123,7 @@ body {
 }
 .media-info .img-box {
 	width: 40%;
-	min-width: 210px;
+	min-width: 150px;
 	max-width: 300px;
 }
 .media-info img {
@@ -110,6 +132,7 @@ body {
 	box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
 }
 .media-info .common-box {
+	flex-grow: 1;
 	padding-left: 16px;
 	padding-top: 4px;
 }
@@ -132,13 +155,24 @@ body {
 .media-info .common-info :nth-child(2) {
 	font-weight: 500;
 }
+.favorite-btn {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: column;
+	padding-right: 12px;
+}
+.favorite-btn .text {
+	font-size: 12px;
+	font-weight: 600;
+}
+
 /* 영화 설명 */
 .explain-box {
 	padding: 12px;
 	border-radius: 8px;
 	background-color: #fafafa;
 }
-.explain-box .title {
+.explain-box .title, .title {
 	font-size: 18px;
 }
 .explain-box span {
@@ -207,3 +241,74 @@ body {
 	color: #222222;
 }
 
+/* 부가 기능 */
+.modal .people-box {
+	margin-bottom: 24px;
+}
+.modal .people-box .item {
+	width: 96px;
+}
+.modal .people-box .item .type {
+	font-size: 12px;
+	color: #98989C;
+	margin-top: -2px;
+}
+
+.modal .media-info .img-box {
+	width: 124px;
+}
+.modal .review-info span {
+	font-size: 14px;
+}
+.modal .review-info img {
+	max-width: 140px;
+	margin-right: 12px;
+	border-radius: 8px;
+}
+
+.modal.review-input .btn-box {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	align-items: flex-end;
+}
+.modal.review-input .btn-box .btn {
+	width: fit-content;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+.modal.review-input .input-box span {
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 4px;
+	margin-left: 4px;
+}
+
+#review-confirm-modal .modal-title {
+	font-size: 14px;
+	font-weight: 600;
+}
+#review-confirm-modal .modal-body .rating-score {
+	font-size: 14px;
+	font-weight: bold;
+}
+#review-confirm-modal .btn {
+	width: 50%;
+	font-size: 14px;
+	font-weight: bold;
+}
+#review-confirm-modal .btn:nth-child(1) {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+}
+#review-confirm-modal .btn:nth-child(2) {
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+	border-bottom-left-radius: 0;
+}
+
+.ck-editor__editable:not(.ck-editor__nested-editable) { 
+	min-height: 400px;
+}

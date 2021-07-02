@@ -72,7 +72,7 @@ div.footer-overay {
 	font-size: 20px;
 	padding-top: 5px;
 }
-.td-head{
+th{
 	padding-right: 30px;
 	text-align: right;
 	width: 35%;
@@ -106,7 +106,7 @@ div.footer-overay {
 						</tr>
 						
 						<tr>
-							<td class="td-head">이메일 주소</td>
+							<th>이메일 주소</th>
 							<td> <input type="email" id="email_addr" name="email_addr" value="">
 						</tr>
 						<tr>
@@ -127,11 +127,11 @@ div.footer-overay {
 						</tr>
 						
 						<tr>
-							<td class="td-head">ID</td>
+							<th>ID</td>
 							<td style="width: 35%;"><input type="text" name="id" value=""></td>
 						</tr>
 						<tr>
-							<td class="td-head">이메일 주소</td>
+							<th>이메일 주소</td>
 							<td> <input type="email" id="email_addr" name="email_addr" value="">
 						</tr>
 						<tr>

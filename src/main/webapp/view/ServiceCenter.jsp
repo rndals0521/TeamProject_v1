@@ -94,13 +94,13 @@ footer {
 		<div class="div2">
 			<ul>
 				<h3>고객센터</h3>
-				<li><a href="notice2.html" target="iframe1">공지사항</a></li>
-				<li><a href="FAQ2.html" target="iframe1">FAQ</a></li>
-				<li><a href="question3.html" target="iframe1">등록문의</a></li>
+				<li><a href="notice.jsp" target="iframe1">공지사항</a></li>
+				<li><a href="FAQ.jsp" target="iframe1">FAQ</a></li>
+				<li><a href="question.jsp" target="iframe1">등록문의</a></li>
 			</ul>
 		</div>
 		<div class="div3">
-			<iframe name="iframe1" src="notice2.html" style="width: 100%; height: 100%;"></iframe>
+			<iframe name="iframe1" src="notice.jsp" style="width: 100%; height: 100%;"></iframe>
 		</div>
 	</div>
 	<footer>

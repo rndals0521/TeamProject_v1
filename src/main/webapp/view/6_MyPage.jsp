@@ -42,19 +42,7 @@ div.container {
 	margin-left: auto;
 }
 
-footer {
-	padding: 80px 0px;
-	position: relative;
-	bottom: 0;
-}
 
-div.footer-overay {
-	position: absolute;
-	left: 0;
-	width: 100%;
-	height: 200px;
-	background-color: gray;
-}
 
 .bodybox {
 	margin: auto;
@@ -66,15 +54,16 @@ div.footer-overay {
 }
 
 #submit_btn{
-	float : right;
-	background-color: #deffeb;
-	border: 2px solid #bcffeb;
+	margin-top: 40px;
+	margin-left: 270px;
+	background-color: white;
+	border: 2px solid lightgray;
 	width:160px;
 	height: 40px;
 	text-align: center;
 	font-weight: bold; 
 	font-size : 14pt;
-	color: #3068eb;
+	color: #696969;
 }
 
 </style>
